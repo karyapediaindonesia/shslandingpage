@@ -17,14 +17,14 @@ export const contentEn: ContentDictionary = {
         id: "field-trip-singapore",
         image: "/images/photo-7.png",
         imagePosition: "object-[center_top]",
-        alt: "Suria Harapan School students during campus learning and experiential activities",
+        alt: "Suria Harapan School students during experiential learning and educational study tours",
         badge: "GLOBAL LEARNING & STUDY TOUR",
         title: "Expanding Horizons Through Experiential & Global Learning.",
         subtitle: "Immersive field study and overseas tours cultivate independence, global perspectives, and real-world leadership for SHS students.",
         primaryCtaText: "Admissions 2027/2028",
         primaryCtaLink: "#daftar",
-        secondaryCtaText: "Book a School Tour",
-        secondaryCtaLink: "#kunjungan-kampus"
+        secondaryCtaText: "Book a School Visit",
+        secondaryCtaLink: "#kunjungan-sekolah"
       },
       {
         id: "academic-excellence",
@@ -50,7 +50,7 @@ export const contentEn: ContentDictionary = {
         primaryCtaText: "Learning Philosophy",
         primaryCtaLink: "#filosofi-belajar",
         secondaryCtaText: "View Facilities",
-        secondaryCtaLink: "#kunjungan-kampus"
+        secondaryCtaLink: "#kunjungan-sekolah"
       },
       {
         id: "collaborative-discovery",
@@ -70,9 +70,9 @@ export const contentEn: ContentDictionary = {
         image: "/images/photo-11.png",
         imagePosition: "object-[center_top]",
         alt: "Vibrant learning community and student life at Suria Harapan School",
-        badge: "VIBRANT CAMPUS COMMUNITY",
+        badge: "WARM & VIBRANT SCHOOL COMMUNITY",
         title: "Growing Strong in an Inspiring and Supportive Community.",
-        subtitle: "A balanced ecosystem connecting academic excellence, physical vitality, fine arts & music, and enduring moral values.",
+        subtitle: "A balanced learning environment nurturing academic growth, physical vitality, fine arts, music, and enduring moral character.",
         primaryCtaText: "Start Admission",
         primaryCtaLink: "#daftar",
         secondaryCtaText: "Speak with Admissions",
@@ -87,7 +87,7 @@ export const contentEn: ContentDictionary = {
     headlineHighlight: "Shine.",
     description: "Integrated bilingual education of excellence and a high-quality holistic curriculum empowering every child to face the future with curiosity, integrity, and confidence.",
     primaryCta: "Start Admission",
-    secondaryCta: "Book a School Tour",
+    secondaryCta: "Book a School Visit",
     accreditation: "National Accreditation 'A' BAN-S/M",
     curriculum: "Cambridge International Framework",
     featuredPlateTitle: "SHS Science & Robotics Lab",
@@ -120,7 +120,7 @@ export const contentEn: ContentDictionary = {
       {
         value: "Bilingual",
         label: "Instruction Medium",
-        description: "Active, contextual immersion in English and Bahasa Indonesia every day."
+        description: "Active, contextual immersion in English and Bahasa Indonesia, enriched with Mandarin language learning."
       }
     ]
   },
@@ -277,11 +277,11 @@ export const contentEn: ContentDictionary = {
     ]
   },
   studentLife: {
-    eyebrow: "LIFE AT SHS / CAMPUS VIBES",
+    eyebrow: "LIFE AT SHS / SCHOOL ENVIRONMENT",
     title: "School Should Feel Alive.",
     intro: "Classrooms, courts, stages, laboratories, conversations, and friendships—all part of growing together at SHS.",
-    microStoryTag: "Campus Moment",
-    microStoryText: "A single day at school holds so much: lively classroom discussions, testing a fresh hypothesis in the lab, a high-energy basketball game, and heading home with new curiosity.",
+    microStoryTag: "School Story",
+    microStoryText: "A single day at school holds so much: lively classroom discussions, testing a fresh hypothesis in the lab, playing sports with friends, and heading home with new curiosity.",
     moments: [
       {
         tag: "Learning Together",
@@ -324,7 +324,7 @@ export const contentEn: ContentDictionary = {
       quote: "What we treasure most about SHS is how our child comes home each afternoon with bright eyes, eager to share what they explored that day. They aren't afraid of making mistakes because teachers treat every stumble as a valuable step in learning.",
       parentName: "Mrs. Inge Hendrawan",
       parentTitle: "Parent of Grade 4 & Grade 9 Students at SHS",
-      verifiedTag: "Verified Parent"
+      verifiedTag: "SHS Parent"
     }
   },
   trust: {
@@ -332,7 +332,7 @@ export const contentEn: ContentDictionary = {
     title: "The Things That Help Parents Feel Confident.",
     intro: "We highlight verifiable credentials—from national accreditation and global frameworks to genuine student accomplishments.",
     photoCaption: "Applied Robotics & STEM Collaboration among SHS Students",
-    photoTag: "Authentic Campus",
+    photoTag: "Authentic School Life",
     stemPhoto: "/images/photo-10.png",
     items: [
       {
@@ -373,7 +373,7 @@ export const contentEn: ContentDictionary = {
         number: "02",
         title: "School Visit",
         subtitle: "School Visit",
-        description: "Experience the SHS atmosphere firsthand through a private campus tour or an in-person consultation.",
+        description: "Experience the welcoming atmosphere, values, and facilities at SHS firsthand through a guided school visit or in-person consultation.",
         phaseLabel: "Step 2"
       },
       {
@@ -417,7 +417,7 @@ export const contentEn: ContentDictionary = {
           step: "Milestone 1",
           title: "Admissions Open",
           period: "September 2026 – Onward",
-          description: "Online and on-campus registration"
+          description: "Online and on-site registration"
         },
         {
           step: "Milestone 2",
@@ -535,12 +535,12 @@ export const contentEn: ContentDictionary = {
     consultScheduleCta: "Consult Schedule with Admission Team"
   },
   schoolVisit: {
-    eyebrow: "CAMPUS VISIT",
+    eyebrow: "SCHOOL VISIT",
     title: "Come, See, and Experience SHS for Yourself.",
-    description: "Visiting the school is often the best way to understand whether the learning environment feels right for your child. Meet our passionate educators, tour modern classrooms, and experience life at SHS.",
-    primaryCta: "Book a School Tour",
+    description: "Visiting the school is often the best way to see whether our learning environment and values resonate with your child. Meet our dedicated educators, tour modern classrooms, and experience daily life at SHS.",
+    primaryCta: "Book a School Visit",
     secondaryCta: "Talk to Admission",
-    photoCaption: "Warm, exploratory, and collaborative moments at Suria Harapan School.",
+    photoCaption: "Warm, active, and collaborative learning moments at Suria Harapan School.",
     operationalNote: "Personal visit schedules are confirmed directly by the Admission Team (Monday – Friday, 08:00 – 15:00 WIB).",
     visitPhoto: "/images/photo-11.png"
   },
@@ -563,7 +563,7 @@ export const contentEn: ContentDictionary = {
       },
       {
         question: "What language is used in daily learning?",
-        answer: "Instruction is delivered bilingually in English and Bahasa Indonesia in an organic, contextual manner. Students gain natural fluency in English both in classes and campus life.",
+        answer: "Instruction is delivered bilingually in English and Indonesian in a natural and engaging setting. Students develop fluency in English during classes and daily school activities, with Mandarin introduced as an enrichment subject from an early age.",
         category: "Language"
       },
       {
@@ -582,8 +582,8 @@ export const contentEn: ContentDictionary = {
         category: "Tuition"
       },
       {
-        question: "Can we schedule a School Tour before applying?",
-        answer: "Absolutely. We warmly welcome parents and prospective students to tour our classrooms, sports grounds, art studios, and science laboratories.",
+        question: "Can parents visit the school before applying?",
+        answer: "Absolutely. We warmly welcome parents and prospective students for a guided school visit to tour classrooms, sports fields, art and music studios, and science laboratories.",
         category: "Visit"
       },
       {
@@ -671,7 +671,7 @@ export const contentEn: ContentDictionary = {
       },
       {
         id: "school_tour",
-        label: "Book a School Tour"
+        label: "Schedule a School Visit"
       },
       {
         id: "start_admission",
@@ -691,20 +691,20 @@ export const contentEn: ContentDictionary = {
   finalCta: {
     eyebrow: "NEXT STEPS",
     title: "Ready to Get to Know SHS Better?",
-    description: "Start with a question, a campus visit, or an online inquiry. Our team is ready to guide you in making the best choice for your child's future.",
+    description: "Start with an inquiry, a school visit, or an online registration. Our team is ready to guide you in making the best choice for your child's future.",
     primaryCta: "Start Admission",
     secondaryCta: "Talk to Admission",
-    mapLocationTitle: "Suria Harapan School Campus Location",
+    mapLocationTitle: "Suria Harapan School Location",
     mapLocationSubtitle: "Conveniently located in central Jambi City with a safe, modern, and nurturing learning environment.",
-    mapAddressLabel: "Campus Address",
+    mapAddressLabel: "School Address",
     mapAddressValue: "Jl. Hayam Wuruk No. 171, Talang Jauh, Kec. Jelutung, Jambi City, Jambi 36133",
     mapHoursLabel: "Admission Office Hours",
     mapHoursValue: "Monday – Friday: 07:30 – 15:30 WIB | Saturday: 08:00 – 12:00 WIB",
-    mapContactLabel: "Campus Contact / Phone & WhatsApp",
+    mapContactLabel: "School Contact / Phone & WhatsApp",
     mapContactValue: "(0741) 789012 • +62 812-7890-1234",
     mapOpenInGoogleMaps: "Open in Google Maps",
     mapGetDirections: "Get Directions",
-    mapBadge: "Integrated Campus: KB, TK, SD, SMP & SMA",
+    mapBadge: "Integrated School: KB, TK, SD, SMP & SMA",
     mapEmbedQuery: "Suria Harapan School Jambi",
     mapGoogleUrl: "https://www.google.com/maps/search/?api=1&query=Suria+Harapan+School+Jambi",
     mapDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Suria+Harapan+School+Jambi",
@@ -715,7 +715,7 @@ export const contentEn: ContentDictionary = {
     tagline: "Bilingual School of Excellence",
     motto: "Shine and Be a Blessing",
     missionSummary: "Nurturing global-minded leaders of character, anchored in strong ethical values through world-class holistic education.",
-    campusLabel: "Main Campus:",
+    campusLabel: "School Address:",
     address: "Jl. Hayam Wuruk No. 171, Talang Jauh, Kec. Jelutung, Kota Jambi, Jambi 36133",
     phoneLabel: "Phone:",
     phone: "(0741) 789012",
@@ -732,7 +732,7 @@ export const contentEn: ContentDictionary = {
     navStudentLife: "Student Life",
     navAdmissionJourney: "Admission Journey",
     navFAQ: "FAQ",
-    navMap: "Campus Map & Location",
+    navMap: "School Location & Map",
     navForm: "PSB Application Form",
     accreditationTitle: "Accreditation & Quality",
     accreditationDesc: "National Accreditation Grade 'A' (Unggul)",

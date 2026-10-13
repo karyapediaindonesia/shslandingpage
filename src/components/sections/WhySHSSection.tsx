@@ -54,7 +54,7 @@ export const WhySHSSection: React.FC<WhySHSSectionProps> = ({ content, onImageCl
             </div>
             <div className="flex items-center justify-between pt-1">
               <span className="text-xs text-on-surface-variant italic">
-                Aktivitas &amp; Kebersamaan Kampus
+                Aktivitas &amp; Kebersamaan di Sekolah
               </span>
               <a
                 href="#daftar"

@@ -83,10 +83,10 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ content, local
           </div>
         </div>
 
-        {/* Bottom: Campus Location & Interactive Google Maps */}
+        {/* Bottom: School Location & Interactive Google Maps */}
         <div className="bg-surface rounded-2xl sm:rounded-3xl border border-shs-border shadow-md overflow-hidden reveal-scale reveal-delay-150">
           <div className="grid grid-cols-1 lg:grid-cols-12">
-            {/* Left: Campus Info & Address Details */}
+            {/* Left: School Info & Address Details */}
             <div className="lg:col-span-5 p-6 sm:p-8 lg:p-10 flex flex-col justify-between gap-6 border-b lg:border-b-0 lg:border-r border-shs-border bg-surface">
               <div className="flex flex-col gap-5">
                 {/* Section Tag */}
@@ -145,7 +145,7 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ content, local
                     </div>
                     <div>
                       <span className="text-xs font-bold uppercase tracking-wider text-secondary block">
-                        <EditableText section="finalCta" field="mapContactLabel" value={content.mapContactLabel || 'Kontak Kampus / Phone & WhatsApp'} />
+                        <EditableText section="finalCta" field="mapContactLabel" value={content.mapContactLabel || (locale === 'en' ? 'School Contact / Phone & WhatsApp' : 'Kontak Sekolah / Telepon & WhatsApp')} />
                       </span>
                       <p className="text-xs sm:text-sm font-medium text-on-surface leading-snug mt-0.5">
                         <EditableText section="finalCta" field="mapContactValue" value={content.mapContactValue || '(0741) 789012 • +62 812-7890-1234'} />

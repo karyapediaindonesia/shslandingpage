@@ -170,7 +170,7 @@ export const HeroBannerSlider: React.FC<HeroBannerSliderProps> = ({ slides, onIm
       className={`relative w-full bg-[#00152c] text-white overflow-hidden select-none border-b border-shs-border ${
         isEditorMode ? 'cursor-ns-resize touch-none' : ''
       }`}
-      aria-label="Campus Highlights Banner Slider"
+      aria-label="School Highlights Banner Slider"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       onTouchStart={handleTouchStart}

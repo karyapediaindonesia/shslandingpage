@@ -3,13 +3,13 @@ import { ContentDictionary } from '../types';
 export const contentId: ContentDictionary = {
   nav: {
     whySHS: "Mengapa SHS",
-    learningLevels: "Jenjang Studi",
+    learningLevels: "Jenjang Pendidikan",
     studentLife: "Kehidupan Siswa",
     admissionJourney: "Alur Pendaftaran",
     faq: "Tanya Jawab",
     startAdmission: "Mulai Pendaftaran",
     menuTitle: "Menu Navigasi",
-    talkToAdmission: "Tanya Tim Admission"
+    talkToAdmission: "Hubungi Tim Admisi"
   },
   heroBanner: {
     slides: [
@@ -17,26 +17,26 @@ export const contentId: ContentDictionary = {
         id: "field-trip-singapore",
         image: "/images/photo-7.png",
         imagePosition: "object-[center_top]",
-        alt: "Siswa Suria Harapan School saat kegiatan pembelajaran dan eksplorasi kampus",
+        alt: "Siswa Suria Harapan School saat kegiatan pembelajaran luar kelas dan studi wisata",
         badge: "GLOBAL LEARNING & STUDY TOUR",
-        title: "Membuka Wawasan Dunia Melalui Pembelajaran Kontekstual.",
-        subtitle: "Pengalaman belajar nyata di dalam dan luar negeri membangun kemandirian, kepemimpinan, dan wawasan global siswa SHS.",
+        title: "Membuka Wawasan Dunia Melalui Pengalaman Belajar Nyata.",
+        subtitle: "Kegiatan belajar langsung di dalam dan luar negeri melatih kemandirian, kepemimpinan, serta wawasan global siswa SHS.",
         primaryCtaText: "Daftar PSB 2027/2028",
         primaryCtaLink: "#daftar",
-        secondaryCtaText: "Jadwalkan Kunjungan",
-        secondaryCtaLink: "#kunjungan-kampus"
+        secondaryCtaText: "Jadwalkan Kunjungan Sekolah",
+        secondaryCtaLink: "#kunjungan-sekolah"
       },
       {
         id: "academic-excellence",
         image: "/images/photo-8.jpg",
         imagePosition: "object-[center_top]",
-        alt: "Suasana ruang kelas kolaboratif dan interaktif di Suria Harapan School",
+        alt: "Suasana ruang kelas yang aktif dan kolaboratif di Suria Harapan School",
         badge: "BILINGUAL SCHOOL OF EXCELLENCE",
         title: "Tempat untuk Belajar, Bertumbuh, dan Bersinar.",
-        subtitle: "Pendidikan dwibahasa terpadu berbasis karakter unggul dan kurikulum bertaraf internasional dari Early Learning hingga Secondary (KB–SMA).",
+        subtitle: "Pendidikan dwibahasa terpadu berbasis pembiasaan karakter unggul dan kurikulum berstandar internasional dari Kelompok Bermain hingga SMA (KB–SMA).",
         primaryCtaText: "Mulai Pendaftaran",
         primaryCtaLink: "#daftar",
-        secondaryCtaText: "Jelajahi Jenjang",
+        secondaryCtaText: "Kenali Jenjang Belajar",
         secondaryCtaLink: "#jenjang-studi"
       },
       {
@@ -45,34 +45,34 @@ export const contentId: ContentDictionary = {
         imagePosition: "object-[center_top]",
         alt: "Eksplorasi sains, teknologi, dan pembelajaran modern di Suria Harapan School",
         badge: "INNOVATION & APPLIED SCIENCES",
-        title: "Eksplorasi Sains, Riset Terapan, dan Teknologi Masa Depan.",
-        subtitle: "Laboratorium modern dan kurikulum berbasis inkuiri melatih pemikiran logis dan keterampilan memecahkan masalah nyata masa depan.",
+        title: "Eksplorasi Sains, Riset Terapan, dan Inovasi Teknologi.",
+        subtitle: "Laboratorium modern dan pembelajaran berbasis inkuiri melatih nalar kritis serta keterampilan siswa dalam memecahkan masalah nyata.",
         primaryCtaText: "Kenali Filosofi Belajar",
         primaryCtaLink: "#filosofi-belajar",
-        secondaryCtaText: "Lihat Fasilitas Lab",
-        secondaryCtaLink: "#kunjungan-kampus"
+        secondaryCtaText: "Lihat Fasilitas Laboratorium",
+        secondaryCtaLink: "#kunjungan-sekolah"
       },
       {
         id: "collaborative-discovery",
         image: "/images/photo-10.png",
         imagePosition: "object-[center_top]",
-        alt: "Aktivitas kolaboratif dan presentasi inkuiri siswa di Suria Harapan School",
+        alt: "Aktivitas belajar kelompok dan presentasi siswa di Suria Harapan School",
         badge: "INQUIRY & COLLABORATION",
-        title: "Kolaborasi Aktif, Presentasi Ilmiah, dan Karakter Pemimpin.",
-        subtitle: "Mendorong setiap siswa untuk berani berpikir kritis, berdiskusi, dan menyampaikan ide-ide inovatif secara percaya diri.",
-        primaryCtaText: "Lihat Kegiatan Siswa",
+        title: "Kerja Sama Aktif, Keberanian Berpendapat, dan Jiwa Kepemimpinan.",
+        subtitle: "Mendorong setiap siswa untuk terbiasa berpikir kritis, berdiskusi secara terbuka, serta menyampaikan gagasan baru dengan percaya diri.",
+        primaryCtaText: "Lihat Aktivitas Siswa",
         primaryCtaLink: "#kehidupan-siswa",
-        secondaryCtaText: "Jelajahi Kurikulum",
+        secondaryCtaText: "Pelajari Kurikulum",
         secondaryCtaLink: "#filosofi-belajar"
       },
       {
         id: "holistic-community",
         image: "/images/photo-11.png",
         imagePosition: "object-[center_top]",
-        alt: "Kebersamaan dan komunitas belajar siswa di Suria Harapan School",
-        badge: "VIBRANT CAMPUS COMMUNITY",
-        title: "Tumbuh Tangguh dalam Komunitas yang Mendukung dan Berkarakter.",
-        subtitle: "Keseimbangan sejati antara prestasi akademik, kebugaran fisik, apresiasi seni rupa & musik, serta nilai-nilai moral yang kuat.",
+        alt: "Kebersamaan dan lingkungan belajar yang hangat di Suria Harapan School",
+        badge: "KOMUNITAS SEKOLAH YANG HANGAT",
+        title: "Tumbuh Tangguh dalam Lingkungan Sekolah yang Suportif.",
+        subtitle: "Keseimbangan menyeluruh antara capaian akademik, kebugaran jasmani, kepekaan seni dan musik, serta penanaman budi pekerti luhur.",
         primaryCtaText: "Mulai Pendaftaran",
         primaryCtaLink: "#daftar",
         secondaryCtaText: "Konsultasi Tim Admisi",
@@ -85,10 +85,10 @@ export const contentId: ContentDictionary = {
     levelsPill: "KB • TK • SD • SMP • SMA",
     headline: "Tempat untuk Belajar, Bertumbuh, dan",
     headlineHighlight: "Bersinar.",
-    description: "Pendidikan dwibahasa terpadu berbasis karakter unggul dan kurikulum holistik berkualitas tinggi yang membekali setiap anak untuk menghadapi masa depan dengan rasa ingin tahu dan kepercayaan diri.",
+    description: "Pendidikan dwibahasa (Bahasa Indonesia & Bahasa Inggris) terpadu dengan pembiasaan budi pekerti luhur dan kurikulum internasional Cambridge, membekali setiap anak menyongsong masa depan dengan percaya diri.",
     primaryCta: "Mulai Pendaftaran",
-    secondaryCta: "Jadwalkan Kunjungan",
-    accreditation: "Akreditasi A Nasional BAN-S/M",
+    secondaryCta: "Jadwalkan Kunjungan Sekolah",
+    accreditation: "Terakreditasi A BAN-S/M",
     curriculum: "Cambridge International Framework",
     featuredPlateTitle: "Laboratorium Sains & Robotika SHS",
     featuredPlateDesc: "Eksplorasi pemecahan masalah & inovasi teknologi",
@@ -98,178 +98,178 @@ export const contentId: ContentDictionary = {
     musicPhoto: "/images/photo-2.png"
   },
   glance: {
-    eyebrow: "SHS AT A GLANCE",
-    title: "Sekilas tentang SHS",
-    intro: "Beberapa hal penting yang membentuk pengalaman belajar di Suria Harapan School.",
+    eyebrow: "SEKILAS SHS",
+    title: "Sekilas tentang Suria Harapan School",
+    intro: "Prinsip utama yang melandasi keseharian belajar di Suria Harapan School.",
     stats: [
       {
         value: "2008",
         label: "Tahun Berdiri",
-        description: "Lebih dari 17 tahun mengawal pembinaan karakter & keunggulan akademik murid."
+        description: "Lebih dari 17 tahun mendampingi pembentukan budi pekerti dan prestasi belajar siswa."
       },
       {
         value: "KB–SMA",
-        label: "Jenjang Terpadu",
-        description: "Kontinuitas pendidikan holistik dari usia dini hingga persiapan perguruan tinggi."
+        label: "Sekolah Terpadu",
+        description: "Kesinambungan pendidikan menyeluruh dari usia dini hingga persiapan jenjang perguruan tinggi."
       },
       {
         value: "Akreditasi A",
         label: "Akreditasi BAN-S/M",
-        description: "Standar mutu institusi terverifikasi resmi predikat Unggul Nasional."
+        description: "Standar mutu pendidikan terverifikasi resmi dengan peringkat Unggul secara nasional."
       },
       {
         value: "Bilingual",
-        label: "Bahasa Pengantar",
-        description: "Bahasa Indonesia & English terbiasa secara aktif dan kontekstual setiap hari."
+        label: "Pendidikan Dwibahasa",
+        description: "Pembiasaan aktif Bahasa Indonesia & Bahasa Inggris dalam pembelajaran harian, diperkaya dengan muatan Bahasa Mandarin."
       }
     ]
   },
   whySHS: {
     eyebrow: "MENGAPA SURIA HARAPAN",
-    title: "Lebih dari Sekadar Tempat Belajar.",
-    intro: "Kami percaya pengalaman sekolah yang baik membantu siswa berkembang secara akademik, pribadi, sosial, dan dalam hal-hal yang mereka sukai.",
-    imageCaption: "Tumbuh Bersama Komunitas Sehat & Hangat",
-    contactCta: "Hubungi Tim Admission",
+    title: "Lebih dari Sekadar Tempat Menuntut Ilmu.",
+    intro: "Kami meyakini bahwa sekolah yang baik adalah tempat di mana anak berkembang secara utuh—baik dalam akademik, pembentukan kepribadian, hubungan sosial, maupun minat bakatnya.",
+    imageCaption: "Tumbuh Bersama dalam Lingkungan Sekolah yang Hangat",
+    contactCta: "Hubungi Tim Admisi",
     communityPhoto: "/images/photo-19.png",
     pillars: [
       {
         number: "01",
-        title: "Belajar dengan Aktif",
-        description: "Siswa didorong untuk bertanya, mencoba, berdiskusi, dan menemukan pemahaman melalui pengalaman belajar yang aktif dan relevan dengan dunia nyata."
+        title: "Belajar secara Aktif",
+        description: "Siswa dibiasakan aktif bertanya, mencoba hal baru, berdiskusi, dan memahami konsep melalui pengalaman belajar yang nyata serta relevan."
       },
       {
         number: "02",
-        title: "Bertumbuh dalam Karakter",
-        description: "Pendidikan tidak berhenti pada nilai akademik. SHS memberi ruang bagi siswa untuk belajar bertanggung jawab, menghargai sesama, berintegritas, dan tangguh menghadapi tantangan."
+        title: "Menumbuhkan Budi Pekerti",
+        description: "Pendidikan melampaui sekadar perolehan nilai ujian. Di SHS, anak belajar bertanggung jawab, menghormati sesama, berintegritas, dan pantang menyerah saat menghadapi tantangan."
       },
       {
         number: "03",
-        title: "Menemukan Minat dan Talenta",
-        description: "Melalui ragam kegiatan di dalam dan di luar kelas, setiap siswa memiliki kesempatan luas mengenali kekuatan, minat, dan potensi unik mereka."
+        title: "Menemukan Minat dan Bakat",
+        description: "Melalui beragam kegiatan intrakurikuler dan ekstrakurikuler, setiap siswa memperoleh ruang terbuka untuk mengenali potensi terbaik dalam dirinya."
       },
       {
         number: "04",
-        title: "Tumbuh dalam Komunitas",
-        description: "Sekolah adalah tempat anak belajar bersama teman, guru, dan keluarga. Hubungan yang hangat dan kolaboratif menjadi bagian tak terpisahkan dari ekosistem SHS."
+        title: "Bertumbuh Bersama Komunitas",
+        description: "Sekolah adalah ruang bertumbuh bersama antara siswa, guru, dan para orang tua. Hubungan yang hangat dan penuh rasa saling percaya menjadi fondasi utama di SHS."
       }
     ]
   },
   levels: {
     eyebrow: "JENJANG PENDIDIKAN",
-    title: "Temukan Tahap Belajar yang Tepat.",
-    intro: "Setiap tahap perkembangan membutuhkan pendekatan yang berbeda. Jelajahi pengalaman belajar SHS sesuai jenjang putra-putri Anda.",
+    title: "Tahapan Belajar yang Sesuai untuk Setiap Usia.",
+    intro: "Setiap fase usia anak memiliki kebutuhan tumbuh kembang tersendiri. Kenali pendekatan belajar di SHS yang dirancang khusus untuk mendampingi setiap tahap usia.",
     items: [
       {
         id: "early-learning",
         number: "01",
         age: "Usia 2–6 Tahun",
         levelTitle: "Early Learning",
-        subtitle: "Kelompok Bermain & Taman Kanak-Kanak",
-        description: "Masa awal untuk membangun rasa ingin tahu, keberanian mencoba, kemandirian, dan kegembiraan dalam belajar melalui eksplorasi sensori, motorik, dan sosialisasi hangat.",
-        curriculumHighlights: ["Sensory & Motoric Discovery", "Phonics & Early Literacy", "Investigative Play", "Character Foundations"],
-        ctaText: "Jelajahi Early Learning",
+        subtitle: "Kelompok Bermain & Taman Kanak-Kanak (KB & TK)",
+        description: "Fase fondasi untuk menumbuhkan rasa ingin tahu alami, kegembiraan belajar, kemandirian dasar, dan kemampuan bersosialisasi secara hangat melalui kegiatan bermain yang terarah.",
+        curriculumHighlights: ["Stimulasi Sensori & Motorik", "Fonik & Pengenalan Literasi Dini", "Bermain Sambil Belajar yang Terarah", "Pembiasaan Budi Pekerti & Karakter"],
+        ctaText: "Pelajari Jenjang Early Learning",
         image: "/images/photo-14.png",
-        alt: "Early Childhood playful learning di Suria Harapan School"
+        alt: "Kegiatan belajar aktif dan menyenangkan jenjang usia dini di Suria Harapan School"
       },
       {
         id: "primary",
         number: "02",
         age: "Usia 6–12 Tahun",
         levelTitle: "Primary",
-        subtitle: "Sekolah Dasar (Grade 1–6)",
-        description: "Masa untuk memperkuat dasar literasi, numerasi, pemikiran kritis, keterampilan sosial, dan rasa percaya diri dalam lingkungan bilingual yang suportif.",
-        curriculumHighlights: ["Cambridge Math & Science Framework", "Bilingual Interactive Classroom", "Inquiry-Based Projects", "Music, Art & Physical Education"],
-        ctaText: "Jelajahi Primary",
+        subtitle: "Sekolah Dasar (SD / Kelas 1–6)",
+        description: "Fase penguatan fondasi literasi, numerasi, daya kritis, dan keterampilan bergaul dalam lingkungan dwibahasa yang hangat, suportif, dan menyenangkan.",
+        curriculumHighlights: ["Kurikulum Sains & Matematika Cambridge", "Kelas Interaktif Dwibahasa (Bilingual)", "Proyek Belajar Berbasis Inkuiri", "Seni, Musik, Olahraga & Muatan Mandarin"],
+        ctaText: "Pelajari Jenjang Primary",
         image: "/images/photo-5.png",
-        alt: "Primary School kolaborasi belajar di Suria Harapan School"
+        alt: "Suasana belajar interaktif dan kolaboratif jenjang Sekolah Dasar di Suria Harapan School"
       },
       {
         id: "secondary",
         number: "03",
         age: "Usia 12–18 Tahun",
         levelTitle: "Secondary",
-        subtitle: "SMP & SMA (Grade 7–12)",
-        description: "Masa untuk belajar lebih mandiri, mengasah pemikiran analitis mendalam, kepemimpinan organisasi, riset aplikatif, serta persiapan matang menuju universitas impian.",
-        curriculumHighlights: ["Advanced Science & Applied Robotics", "Global Perspective & Debating", "University & Career Counseling", "Leadership & Community Outreach"],
-        ctaText: "Jelajahi Secondary",
+        subtitle: "SMP & SMA (Kelas 7–12)",
+        description: "Fase kemandirian berpikir, pendalaman nalar analitis, pengembangan kepemimpinan, eksplorasi riset, serta bimbingan terarah menuju perguruan tinggi pilihan.",
+        curriculumHighlights: ["Sains Terapan & Eksplorasi Robotika", "Wawasan Global & Keterampilan Berpikir Kritis", "Bimbingan Peminatan & Konseling Universitas", "Kepemimpinan Siswa & Pengabdian Masyarakat"],
+        ctaText: "Pelajari Jenjang Secondary",
         image: "/images/photo-15.png",
-        alt: "Secondary STEM dan proyek sains di Suria Harapan School"
+        alt: "Pembelajaran sains dan teknologi terapan jenjang SMP dan SMA di Suria Harapan School"
       }
     ]
   },
   philosophy: {
     eyebrow: "FILOSOFI BELAJAR",
-    title: "Belajar dengan Bertanya, Mencoba, dan Menemukan.",
-    intro: "Pembelajaran yang bermakna terjadi ketika siswa tidak hanya menerima informasi, tetapi terlibat aktif dalam proses memahami, mencoba, berdiskusi, dan merefleksikan.",
-    imageCaption: "Eksplorasi & Kolaborasi Langsung di Laboratorium SHS",
-    cta: "Kenali Pengalaman Belajar SHS",
+    title: "Belajar Lewat Bertanya, Mencoba, dan Menemukan.",
+    intro: "Proses belajar menjadi bermakna ketika siswa tidak hanya mendengarkan materi, melainkan terlibat langsung dalam mengamati, mencoba, mendiskusikan, dan menyimpulkan apa yang dipelajari.",
+    imageCaption: "Praktik dan Kolaborasi Langsung di Laboratorium SHS",
+    cta: "Kenali Pendekatan Belajar SHS",
     labPhoto: "/images/photo-7.png",
     verbs: [
       {
         enVerb: "ASK",
         idVerb: "BERTANYA",
-        description: "Rasa ingin tahu menjadi awal dari proses belajar. Guru menstimulasi pertanyaan-pertanyaan mendalam yang mendorong rasa ingin tahu siswa lebih jauh."
+        description: "Rasa ingin tahu adalah awal mula pemahaman. Guru memantik pertanyaan-pertanyaan terbuka yang membimbing siswa untuk mencari tahu lebih dalam."
       },
       {
         enVerb: "EXPLORE",
-        idVerb: "MENGEKSPLORASI",
-        description: "Siswa diberi ruang untuk mencoba berbagai cara dan kemungkinan, mencari data empiris langsung, dan memvalidasi gagasan mereka di dunia nyata."
+        idVerb: "MENJELAJAH",
+        description: "Siswa diberi kesempatan untuk menguji berbagai kemungkinan, melakukan pengamatan langsung, dan membuktikan pemahaman mereka melalui pengalaman nyata."
       },
       {
         enVerb: "CREATE",
-        idVerb: "MENCIPTAKAN",
-        description: "Ide berkembang ketika siswa diberi kesempatan untuk membuat karya, memecahkan masalah praktis, dan bereksperimen dengan beragam solusi kreatif."
+        idVerb: "BERKARYA",
+        description: "Gagasan berkembang nyata saat siswa diberi ruang untuk menghasilkan karya, merancang solusi atas persoalan praktis, dan menyalurkan kreativitas mereka."
       },
       {
         enVerb: "COLLABORATE",
-        idVerb: "BERKOLABORASI",
-        description: "Belajar bersama membantu siswa memahami sudut pandang berbeda, bekerja solid dalam tim, dan berkomunikasi dengan percaya diri."
+        idVerb: "BEKERJA SAMA",
+        description: "Belajar bersama melatih siswa menghargai perbedaan pandangan, saling melengkapi dalam kelompok, dan berkomunikasi dengan santun serta jelas."
       }
     ]
   },
   beyondClassroom: {
     eyebrow: "PENGALAMAN SISWA & EKSTRAKURIKULER",
-    title: "Karena Banyak Hal Penting Dipelajari di Luar Buku.",
-    intro: "Pengalaman siswa juga dibentuk melalui kegiatan, proyek, olahraga, seni, musik, teknologi, dan berbagai kesempatan untuk mencoba hal baru.",
+    title: "Banyak Hal Berharga Dipelajari di Luar Buku Pelajaran.",
+    intro: "Karakter dan kecakapan hidup siswa diasah melalui kegiatan di luar ruang kelas—olahraga, seni, musik, teknologi, organisasi, dan kepedulian sosial.",
     cta: "Lihat Seluruh Aktivitas Siswa",
     items: [
       {
-        tag: "SPORT",
-        title: "Bergerak, bekerja sama, dan belajar disiplin melalui olahraga.",
-        description: "Membangun ketangguhan fisik, semangat sportivitas, dan kekompakan tim yang bertahan seumur hidup.",
-        details: "Basket, futsal, bulu tangkis, atletik, dan renang dengan fasilitas lapangan standar pertandingan.",
+        tag: "OLAHRAGA",
+        title: "Membangun kesehatan raga, kedisiplinan, dan sportivitas melalui olahraga.",
+        description: "Melatih daya juang, ketangkasan fisik, dan kerja sama tim yang solid.",
+        details: "Bola basket, futsal, bulu tangkis, atletik, dan renang dengan fasilitas lapangan berstandar baik.",
         image: "/images/photo-19.png",
         colSpanDesktop: "lg:col-span-7"
       },
       {
-        tag: "MUSIC",
-        title: "Mengekspresikan diri, membangun fokus, dan tampil percaya diri.",
-        description: "Aktivitas orkestra, vokal, dan ansambel musik akustik mengasah kepekaan rasa dan harmoni.",
-        details: "Pelatihan vokal paduan suara, biola, gitar akustik, keyboard, dan pertunjukan resital berkala.",
+        tag: "MUSIK",
+        title: "Mengekspresikan diri, melatih fokus, dan berani tampil percaya diri.",
+        description: "Kegiatan vokal, paduan suara, dan instrumen musik mengasah kepekaan rasa dan apresiasi harmoni.",
+        details: "Pelatihan paduan suara, biola, gitar akustik, keyboard, dan pertunjukan resital siswa secara berkala.",
         image: "/images/photo-2.png",
         colSpanDesktop: "lg:col-span-5"
       },
       {
-        tag: "ARTS",
-        title: "Ruang untuk berimajinasi dan berkarya visual.",
-        description: "Melihat sesuatu dari sudut pandang berbeda melalui eksplorasi beragam media seni rupa.",
-        details: "Lukis kanvas, sketsa, ilustrasi digital, seni kriya, dan pameran karya siswa tahunan.",
+        tag: "SENI RUPA",
+        title: "Ruang imajinasi untuk berkarya visual dan mengasah rasa keindahan.",
+        description: "Menumbuhkan daya cipta dan kepekaan rasa melalui eksplorasi beragam media karya seni rupa.",
+        details: "Seni lukis kanvas, sketsa, ilustrasi digital, kriya tangan, dan pameran karya seni siswa tahunan.",
         image: "/images/photo-4.png",
         colSpanDesktop: "lg:col-span-4"
       },
       {
-        tag: "SCIENCE & TECH",
-        title: "Mengeksplorasi ide dan memecahkan masalah nyata.",
-        description: "Memahami dunia melalui eksperimen, robotika terapan, koding, dan rekayasa terapan.",
-        details: "Pemrograman Arduino, perakitan robotik kompetisi, eksperimen kimia-fisika terapan, dan computational thinking.",
+        tag: "SAINS & TEKNOLOGI",
+        title: "Mengembangkan nalar ingin tahu dan memecahkan tantangan nyata.",
+        description: "Mengenal penerapan sains melalui eksperimen laboratorium, robotika terapan, dan dasar pemrograman komputer.",
+        details: "Dasar pemrograman mikrokontroler, perakitan robotika kompetisi, eksperimen sains terapan, dan computational thinking.",
         image: "/images/photo-10.png",
         colSpanDesktop: "lg:col-span-5"
       },
       {
-        tag: "LIFE SKILLS",
-        title: "Kemandirian, kepemimpinan & empati sosial.",
-        description: "Belajar menjadi pribadi yang mandiri, bertanggung jawab, dan siap menghadapi kehidupan sehari-hari.",
-        details: "Public speaking, tata kelola proyek OSIS, kepramukaan, program bakti sosial, dan kewirausahaan muda.",
+        tag: "KECAKAPAN HIDUP",
+        title: "Kemandirian, jiwa kepemimpinan, dan empati sosial.",
+        description: "Membekali siswa dengan kemandirian hidup sehari-hari, rasa tanggung jawab, dan kepedulian terhadap lingkungan sekitar.",
+        details: "Keterampilan berbicara di depan umum (public speaking), organisasi siswa (OSIS), kepramukaan, bakti sosial, dan pengenalan kewirausahaan.",
         image: "",
         colSpanDesktop: "lg:col-span-3",
         isAccent: true
@@ -277,11 +277,11 @@ export const contentId: ContentDictionary = {
     ]
   },
   studentLife: {
-    eyebrow: "SUASANA KAMPUS / LIFE AT SHS",
-    title: "Sekolah Seharusnya Terasa Hidup.",
-    intro: "Kelas, lapangan, panggung, laboratorium, percakapan, dan pertemanan—semuanya menjadi bagian dari pengalaman tumbuh bersama di SHS.",
-    microStoryTag: "Cerita Kampus",
-    microStoryText: "Satu hari di sekolah bisa berisi banyak hal: berdiskusi di kelas, mencoba eksperimen baru di lab, bermain bersama teman di lapangan, dan pulang dengan rasa ingin tahu baru.",
+    eyebrow: "SUASANA SEKOLAH / KEHIDUPAN DI SHS",
+    title: "Sekolah yang Hidup, Ramah, dan Menginspirasi.",
+    intro: "Ruang kelas yang interaktif, lapangan olahraga, panggung pertunjukan, laboratorium, serta keakraban antar-siswa—semuanya menyatu dalam keseharian di SHS.",
+    microStoryTag: "Kisah dari Sekolah",
+    microStoryText: "Hari-hari di sekolah penuh dengan dinamika: berdiskusi di kelas, mencoba percobaan baru di laboratorium, berolahraga bersama di lapangan, lalu pulang dengan cerita dan rasa ingin tahu baru.",
     moments: [
       {
         tag: "Saat Belajar",
@@ -307,105 +307,105 @@ export const contentId: ContentDictionary = {
       {
         tag: "Saat Bermain",
         plate: "PLATE 05",
-        caption: "Aktivitas olahraga & kebersamaan tim",
+        caption: "Aktivitas olahraga & kekompakan tim",
         image: "/images/photo-19.png",
         aspect: "aspect-square"
       },
       {
         tag: "Saat Menemukan Hal Baru",
         plate: "PLATE 06",
-        caption: "Laboratorium sains & eksperimen robotika",
+        caption: "Laboratorium sains & praktik robotika",
         image: "/images/photo-10.png",
         aspect: "aspect-square"
       }
     ],
     testimonial: {
       stars: 5,
-      quote: "Hal yang paling kami syukuri menyekolahkan anak di SHS adalah bagaimana ia pulang setiap sore dengan mata berbinar menceritakan apa yang ia coba hari itu. Ia tidak takut membuat kesalahan karena gurunya memandangnya sebagai langkah berharga untuk belajar.",
+      quote: "Hal yang paling kami syukuri menyekolahkan anak di SHS adalah bagaimana ia selalu pulang ke rumah dengan penuh semangat menceritakan apa yang ia pelajari hari itu. Anak kami tidak takut berbuat salah karena para guru membimbingnya dengan telaten dan memandang kesalahan sebagai bagian berharga dari proses belajar.",
       parentName: "Ibu Inge Hendrawan",
-      parentTitle: "Orang Tua Siswa Grade 4 & Grade 9 SHS",
-      verifiedTag: "Verified Parent"
+      parentTitle: "Orang Tua Siswa Kelas 4 & Kelas 9 SHS",
+      verifiedTag: "Orang Tua Siswa SHS"
     }
   },
   trust: {
     eyebrow: "BUKTI MUTU & KREDIBILITAS",
-    title: "Hal-Hal yang Membuat Orang Tua Lebih Yakin.",
-    intro: "Kami menampilkan informasi yang relevan dan dapat diverifikasi—mulai dari akreditasi, program, hingga capaian nyata siswa kami.",
-    photoCaption: "Kolaborasi Aktif Proyek STEM & Robotika Siswa SHS",
-    photoTag: "Lingkungan Nyata",
+    title: "Komitmen Nyata yang Memberi Rasa Tenang bagi Orang Tua.",
+    intro: "Kami menjunjung transparansi dan mutu pendidikan yang dapat diverifikasi—mulai dari status akreditasi resmi, integrasi kurikulum, hingga prestasi nyata para siswa.",
+    photoCaption: "Kerja Sama Aktif Siswa SHS dalam Praktik Proyek STEM & Robotika",
+    photoTag: "Lingkungan Nyata Sekolah",
     stemPhoto: "/images/photo-10.png",
     items: [
       {
         tag: "STANDAR NASIONAL",
-        title: "Akreditasi A Nasional BAN-S/M",
-        description: "Peringkat akreditasi tertinggi BAN-S/M yang menjamin tata kelola akademik, kompetensi pendidik tersertifikasi, sarana belajar komprehensif, dan integritas evaluasi."
+        title: "Akreditasi A BAN-S/M (Predikat Unggul)",
+        description: "Peringkat akreditasi tertinggi dari Badan Akreditasi Nasional yang membuktikan mutu pengelolaan sekolah, kualifikasi pendidik tersertifikasi, sarana belajar lengkap, dan integritas evaluasi."
       },
       {
-        tag: "KERANGKA INTERNASIONAL",
+        tag: "KURIKULUM TERPADU",
         title: "Kurikulum Nasional Terpadu & Cambridge Framework",
-        description: "Integrasi kurikulum terpadu yang membina karakter kebangsaan sekaligus mempersiapkan kompetensi analitis, pemecahan masalah kritis, dan kemahiran bilingual global."
+        description: "Perpaduan kurikulum nasional yang menanamkan nilai-nilai kebangsaan dan budi pekerti luhur, berpadu dengan standar Cambridge untuk mengasah daya analitis, kemampuan berbahasa Inggris, dan wawasan global."
       },
       {
-        tag: "REKAM JEJAK AKADEMIK & PRESTASI",
-        title: "Capaian & Prestasi Siswa Terpilih",
-        description: "Portofolio kejuaraan olimpiade sains terapan, karya robotika, kompetisi kebahasaan, olahraga, dan seni di tingkat regional maupun nasional."
+        tag: "PRESTASI SISWA",
+        title: "Rekam Jejak Prestasi Siswa",
+        description: "Raihan medali dan penghargaan para siswa dalam ajang olimpiade sains terapan, kompetisi robotika, lomba debat bahasa Inggris, pertandingan olahraga, serta festival seni tingkat daerah maupun nasional."
       },
       {
-        tag: "KONTINUITAS TINGGI",
+        tag: "KESINAMBUNGAN STUDI",
         title: "Jalur Kemitraan & Konseling Universitas",
-        description: "Jalur kesinambungan studi ke perguruan tinggi terkemuka dalam dan luar negeri dengan pendampingan konseling bakat dan minat sejak jenjang menengah."
+        description: "Jalur kesinambungan studi ke perguruan tinggi terkemuka di dalam dan luar negeri, didukung bimbingan konseling bakat dan minat secara terarah sejak jenjang sekolah menengah."
       }
     ]
   },
   admissionJourney: {
-    eyebrow: "PROSES PENERIMAAN",
-    title: "Langkah yang Jelas dari Awal hingga Bergabung.",
-    intro: "Kami ingin proses penerimaan siswa terasa sederhana, transparan, dan mudah dipahami. Berikut 5 tahapan yang akan Anda lalui bersama tim kami.",
+    eyebrow: "ALUR PENERIMAAN SISWA BARU",
+    title: "Tahapan Pendaftaran yang Jelas dan Mudah Dipahami.",
+    intro: "Kami memastikan proses penerimaan siswa baru berlangsung hangat, transparan, dan terarah. Berikut lima tahapan yang akan Ayah dan Bunda lalui bersama tim kami.",
     steps: [
       {
         number: "01",
-        title: "Konsultasi Awal",
+        title: "Konsultasi & Informasi Awal",
         subtitle: "Initial Inquiry",
-        description: "Hubungi Tim Admission atau isi formulir singkat untuk mendapatkan informasi spesifik sesuai jenjang yang Anda minati.",
+        description: "Hubungi Tim Admisi kami atau lengkapi formulir singkat untuk memperoleh informasi terperinci mengenai jenjang yang sesuai bagi putra-putri Anda.",
         phaseLabel: "Tahap 1"
       },
       {
         number: "02",
-        title: "Kunjungan Sekolah",
+        title: "Kunjungan ke Sekolah",
         subtitle: "School Visit",
-        description: "Kenali atmosfer dan fasilitas belajar SHS secara langsung melalui school tour pribadi atau konsultasi on-campus.",
+        description: "Kenali suasana belajar, budaya sekolah, dan fasilitas SHS secara langsung melalui kunjungan sekolah pribadi atau konsultasi langsung dengan konselor kami.",
         phaseLabel: "Tahap 2"
       },
       {
         number: "03",
-        title: "Asesmen & Observasi",
-        subtitle: "Assessment / Observation",
-        description: "Sesi observasi kesiapan untuk jenjang Early Learning atau asesmen diagnostik potensi akademik untuk Primary & Secondary.",
+        title: "Observasi & Asesmen Kesiapan",
+        subtitle: "Assessment & Observation",
+        description: "Sesi observasi kesiapan belajar bagi calon siswa Early Learning, atau asesmen diagnostik literasi dan numerasi yang bersahabat untuk jenjang Primary dan Secondary.",
         phaseLabel: "Tahap 3"
       },
       {
         number: "04",
         title: "Konfirmasi Penerimaan",
         subtitle: "Admission Confirmation",
-        description: "Tim Admission menginformasikan surat resmi hasil penerimaan dan rincian administratif langkah selanjutnya.",
+        description: "Tim Admisi akan menyampaikan surat pemberitahuan resmi hasil penerimaan beserta panduan langkah administratif selanjutnya.",
         phaseLabel: "Tahap 4"
       },
       {
         number: "05",
-        title: "Pendaftaran Resmi",
+        title: "Pendaftaran Ulang & Registrasi Resmi",
         subtitle: "Enrollment",
-        description: "Lengkapi finalisasi berkas administrasi dan bersiap menyambut hari pertama sekolah sebagai bagian dari keluarga SHS.",
+        description: "Melengkapi berkas administrasi dan bersiap menyambut hari pertama masuk sekolah sebagai bagian dari keluarga besar Suria Harapan School.",
         phaseLabel: "Tahap 5"
       }
     ],
     primaryCta: "Mulai Pendaftaran",
-    contactCta: "Hubungi Tim Admission",
-    supportNote: "Tim kami siap membimbing Ayah & Bunda di setiap langkah."
+    contactCta: "Hubungi Tim Admisi",
+    supportNote: "Tim Admisi kami siap mendampingi Ayah dan Bunda di setiap tahapan."
   },
   timeline: {
     eyebrow: "JADWAL & PERIODE PSB",
-    title: "Rencanakan Langkah Anda Lebih Awal.",
-    intro: "Pilih jenjang untuk melihat periode penerimaan siswa baru Tahun Ajaran 2027/2028.",
+    title: "Rencanakan Pendaftaran Putra-Putri Anda Lebih Awal.",
+    intro: "Pilih jenjang pendidikan di bawah ini untuk melihat perkiraan jadwal penerimaan siswa baru Tahun Ajaran 2027/2028.",
     tabs: {
       earlyLearning: "Early Learning (KB & TK)",
       primary: "Primary (SD)",
@@ -417,37 +417,37 @@ export const contentId: ContentDictionary = {
           step: "Langkah 1",
           title: "Pendaftaran Dibuka",
           period: "September 2026 – Selesai",
-          description: "Registrasi formulir online / on-site"
+          description: "Registrasi formulir daring (online) atau langsung di sekolah"
         },
         {
           step: "Langkah 2",
           title: "Gelombang Early Bird",
           period: "Oktober – Desember 2026",
-          description: "Jalur prioritas & penawaran khusus"
+          description: "Jalur prioritas dengan penawaran khusus dan kepastian kuota"
         },
         {
           step: "Langkah 3",
           title: "Sesi Observasi",
           period: "Jadwal Fleksibel",
-          description: "Observasi interaksi & kesiapan anak"
+          description: "Observasi kesiapan motorik, interaksi, dan belajar anak secara ramah"
         },
         {
           step: "Langkah 4",
-          title: "Konfirmasi Penerimaan",
+          title: "Pengumuman Hasil",
           period: "Maks. 3 Hari Kerja",
-          description: "Penerbitan surat pengumuman"
+          description: "Penyampaian surat keputusan penerimaan resmi"
         },
         {
           step: "Langkah 5",
           title: "Pendaftaran Ulang",
           period: "Sesuai Surat Penerimaan",
-          description: "Finalisasi berkas administrasi"
+          description: "Penyelesaian administrasi dan kelengkapan berkas siswa"
         },
         {
           step: "Langkah 6",
-          title: "Hari Pertama Masuk",
+          title: "Hari Pertama Masuk Sekolah",
           period: "Juli 2027",
-          description: "Tahun Ajaran Baru 2027/2028",
+          description: "Penyambutan Tahun Ajaran Baru 2027/2028",
           isSpecial: true
         }
       ],
@@ -456,37 +456,37 @@ export const contentId: ContentDictionary = {
           step: "Langkah 1",
           title: "Pendaftaran Dibuka",
           period: "September 2026 – Selesai",
-          description: "Registrasi akun & konsultasi jenjang"
+          description: "Pengisian formulir pendaftaran dan konsultasi jenjang SD"
         },
         {
           step: "Langkah 2",
           title: "Gelombang 1 (Prioritas)",
           period: "Oktober – Desember 2026",
-          description: "Penempatan kelas & kuota khusus"
+          description: "Pemesanan kuota kelas dan penawaran gelombang pertama"
         },
         {
           step: "Langkah 3",
           title: "Asesmen Diagnostik",
           period: "Setiap Sabtu / Terjadwal",
-          description: "Pemetaan literasi & numerasi"
+          description: "Pemetaan kesiapan literasi dasar, numerasi, dan pengamatan belajar"
         },
         {
           step: "Langkah 4",
           title: "Hasil & Konsultasi",
           period: "Maks. 5 Hari Kerja",
-          description: "Umpan balik hasil kepada orang tua"
+          description: "Penyampaian hasil pemetaan serta diskusi bersama orang tua"
         },
         {
           step: "Langkah 5",
-          title: "Final Enrollment",
+          title: "Pendaftaran Ulang Resmi",
           period: "Januari – April 2027",
-          description: "Penyelesaian berkas resmi"
+          description: "Penyelesaian berkas administrasi resmi siswa"
         },
         {
           step: "Langkah 6",
-          title: "Hari Pertama Sekolah",
+          title: "Hari Pertama Masuk Sekolah",
           period: "Juli 2027",
-          description: "Tahun Ajaran Baru 2027/2028",
+          description: "Awal Tahun Ajaran Baru 2027/2028",
           isSpecial: true
         }
       ],
@@ -495,153 +495,153 @@ export const contentId: ContentDictionary = {
           step: "Langkah 1",
           title: "Pendaftaran Dibuka",
           period: "September 2026 – Selesai",
-          description: "Pengisian inquiry & formulir berkas"
+          description: "Pengisian formulir dan penyerahan salinan nilai rapor"
         },
         {
           step: "Langkah 2",
-          title: "Gelombang Prioritas",
+          title: "Gelombang Prioritas & Prestasi",
           period: "Oktober – Desember 2026",
-          description: "Jalur prestasi & early enrollment"
+          description: "Jalur prestasi akademik/non-akademik serta pendaftaran awal"
         },
         {
           step: "Langkah 3",
           title: "Tes Potensi Akademik",
           period: "Terjadwal Berkala",
-          description: "Tes logika, bahasa & wawancara minat"
+          description: "Tes kemampuan logika, pemahaman bacaan, dan wawancara minat siswa"
         },
         {
           step: "Langkah 4",
-          title: "Surat Penerimaan",
+          title: "Surat Penerimaan Resmi",
           period: "Maks. 5 Hari Kerja",
-          description: "Pengumuman resmi status siswa"
+          description: "Penerbitan surat keputusan hasil seleksi penerimaan"
         },
         {
           step: "Langkah 5",
-          title: "Administrasi Lengkap",
+          title: "Administrasi Lengkap & Orientasi",
           period: "Hingga Mei 2027",
-          description: "Daftar ulang & orientasi peminatan"
+          description: "Penyelesaian daftar ulang dan pengenalan program peminatan"
         },
         {
           step: "Langkah 6",
-          title: "Hari Pertama Masuk",
+          title: "Hari Pertama Masuk Sekolah",
           period: "Juli 2027",
-          description: "Tahun Ajaran Baru 2027/2028",
+          description: "Awal Tahun Ajaran Baru 2027/2028",
           isSpecial: true
         }
       ]
     },
-    disclaimer: "* Jadwal dapat disesuaikan berdasarkan ketersediaan kuota kelas per jenjang.",
+    disclaimer: "* Jadwal dapat disesuaikan sewaktu-waktu mengikuti keterisian kuota kelas pada masing-masing jenjang.",
     primaryCta: "Mulai Pendaftaran",
-    consultScheduleCta: "Konsultasi Jadwal dengan Tim Admission"
+    consultScheduleCta: "Konsultasikan Jadwal dengan Tim Admisi"
   },
   schoolVisit: {
-    eyebrow: "KUNJUNGAN KAMPUS",
-    title: "Datang, Lihat, dan Rasakan Sendiri.",
-    description: "Melihat sekolah secara langsung sering kali menjadi cara terbaik untuk memahami apakah lingkungan belajarnya tepat untuk anak Anda. Temui tim pendidik kami, lihat ruang belajar modern, dan kenali kehidupan di SHS.",
-    primaryCta: "Jadwalkan School Tour",
-    secondaryCta: "Hubungi Tim Admission",
-    photoCaption: "Suasana interaksi hangat, eksploratif, dan kolaboratif di kampus Suria Harapan School.",
-    operationalNote: "Jadwal kunjungan personal akan dikonfirmasi langsung oleh Tim Admission (Senin – Jumat, 08.00 – 15.00 WIB).",
+    eyebrow: "KUNJUNGAN SEKOLAH",
+    title: "Datang, Lihat, dan Rasakan Langsung Suasana Belajar di SHS.",
+    description: "Berkunjung langsung ke sekolah adalah cara terbaik untuk merasakan apakah suasana dan budaya belajarnya cocok bagi buah hati Anda. Kami mengundang Ayah dan Bunda untuk bertemu dengan para pendidik kami, meninjau ruang kelas serta sarana belajar, dan melihat dari dekat keseharian siswa di Suria Harapan School.",
+    primaryCta: "Jadwalkan Kunjungan Sekolah",
+    secondaryCta: "Hubungi Tim Admisi",
+    photoCaption: "Suasana interaksi yang hangat, aktif, dan bersahabat di lingkungan Suria Harapan School.",
+    operationalNote: "Waktu kunjungan personal akan disesuaikan dan dikonfirmasi langsung oleh Tim Admisi (Senin – Jumat, pukul 08.00 – 15.00 WIB).",
     visitPhoto: "/images/photo-11.png"
   },
   faq: {
-    eyebrow: "YANG SERING DITANYAKAN ORANG TUA",
-    title: "Informasi Penting Sebelum Memulai.",
-    intro: "Jawaban atas pertanyaan-pertanyaan yang paling sering diajukan orang tua sebelum memulai pendaftaran.",
-    searchPlaceholder: "Cari pertanyaan seputar PSB, kurikulum, atau biaya...",
+    eyebrow: "PERTANYAAN YANG SERING DIAJUKAN",
+    title: "Hal-Hal Penting yang Perlu Diketahui Orang Tua.",
+    intro: "Berikut rangkuman jawaban atas pertanyaan yang paling sering diajukan seputar pendaftaran, kurikulum, dan kegiatan belajar di Suria Harapan School.",
+    searchPlaceholder: "Cari pertanyaan seputar pendaftaran, kurikulum, bahasa, atau biaya...",
     allCategories: "Semua Kategori",
     items: [
       {
         question: "Jenjang apa saja yang sedang menerima siswa baru?",
-        answer: "Suria Harapan School membuka penerimaan siswa baru untuk jenjang Early Learning (KB & TK), Primary (SD), hingga Secondary (SMP & SMA) terpadu untuk Tahun Ajaran 2027/2028.",
+        answer: "Suria Harapan School membuka penerimaan siswa baru untuk jenjang terpadu mulai dari Early Learning (Kelompok Bermain & Taman Kanak-Kanak), Primary (Sekolah Dasar / SD), hingga Secondary (SMP dan SMA) untuk Tahun Ajaran 2027/2028.",
         category: "Jenjang"
       },
       {
         question: "Kurikulum apa yang digunakan di SHS?",
-        answer: "SHS memadukan Kurikulum Nasional Indonesia dengan kerangka kurikulum internasional Cambridge yang berorientasi pada pemikiran kritis, eksplorasi sains, matematika terapan, dan penguatan karakter berbudi pekerti luhur.",
+        answer: "SHS memadukan Kurikulum Nasional Indonesia dengan kerangka kurikulum internasional Cambridge yang berorientasi pada pemikiran kritis, eksplorasi sains, matematika terapan, dan penguatan budi pekerti luhur.",
         category: "Kurikulum"
       },
       {
         question: "Bahasa apa yang digunakan dalam pembelajaran sehari-hari?",
-        answer: "Pembelajaran disampaikan secara bilingual (Bahasa Indonesia & English) secara terstruktur dan kontekstual. Siswa dibiasakan berkomunikasi aktif dalam bahasa Inggris di kelas maupun di lingkungan sekolah.",
+        answer: "Suria Harapan School menerapkan pendidikan dwibahasa (bilingual) dengan Bahasa Indonesia dan Bahasa Inggris sebagai bahasa pengantar utama. Siswa dibiasakan aktif berkomunikasi dalam bahasa Inggris di kelas maupun di lingkungan sekolah. Selain itu, pelajaran Bahasa Mandarin diajarkan sebagai muatan pengayaan bahasa asing yang terstruktur sejak dini untuk membekali siswa dengan wawasan dan keterampilan komunikasi global.",
         category: "Bahasa"
       },
       {
-        question: "Apakah ada sesi assessment atau observasi?",
-        answer: "Ya. Untuk Early Learning dilakukan observasi kesiapan belajar dan interaksi sosial. Untuk Primary dan Secondary dilakukan asesmen diagnostik literasi, numerasi, dan wawancara minat siswa untuk memastikan pendampingan belajar yang optimal.",
+        question: "Apakah ada sesi asesmen atau observasi bagi calon siswa?",
+        answer: "Ya. Untuk Early Learning diadakan observasi kesiapan belajar dan interaksi sosial yang ramah anak. Untuk jenjang Primary dan Secondary diadakan asesmen pemetaan literasi, numerasi, serta wawancara minat siswa agar pendampingan belajar berjalan optimal.",
         category: "Asesmen"
       },
       {
-        question: "Dokumen apa saja yang perlu disiapkan?",
-        answer: "Dokumen awal mencakup fotokopi Akta Kelahiran, Kartu Keluarga, KTP Orang Tua, rapor jenjang sebelumnya (untuk pindahan/lanjutan), dan pasfoto calon siswa. Checklist lengkap akan diberikan saat formulir awal terkirim.",
+        question: "Dokumen apa saja yang perlu disiapkan untuk pendaftaran?",
+        answer: "Dokumen awal mencakup salinan Akta Kelahiran, Kartu Keluarga (KK), KTP orang tua, pasfoto calon siswa terbaru, dan salinan rapor jenjang sebelumnya (khusus untuk siswa pindahan/lanjutan). Daftar berkas lengkap akan dikirimkan saat formulir awal terkirim.",
         category: "Dokumen"
       },
       {
         question: "Bagaimana cara mendapatkan informasi rincian biaya sekolah?",
-        answer: "Rincian biaya pendidikan dan skema pembayaran dapat diperoleh melalui sesi konsultasi langsung atau dengan mengisi formulir di bawah ini dengan memilih opsi 'Informasi Biaya'. Tim kami akan mengirimkan struktur biaya resmi.",
+        answer: "Rincian biaya pendidikan dan skema pembayaran dapat diperoleh melalui sesi konsultasi langsung di sekolah atau dengan mengisi formulir di halaman ini (pilih opsi 'Informasi Biaya'). Tim Admisi kami akan mengirimkan struktur biaya resmi.",
         category: "Biaya"
       },
       {
-        question: "Apakah orang tua bisa melakukan School Tour sebelum mendaftar?",
-        answer: "Tentu. Kami sangat menyambut orang tua dan calon siswa untuk menjadwalkan kunjungan kampus (School Tour) agar dapat melihat langsung ruang kelas, fasilitas olahraga, studio seni, dan laboratorium.",
+        question: "Apakah orang tua bisa berkunjung ke sekolah (School Visit) sebelum mendaftar?",
+        answer: "Tentu. Kami sangat menyambut kehadiran Ayah, Bunda, dan calon siswa untuk menjadwalkan kunjungan ke sekolah (School Visit) agar dapat melihat langsung ruang kelas, fasilitas olahraga, studio seni dan musik, serta laboratorium sains kami.",
         category: "Kunjungan"
       },
       {
-        question: "Bagaimana cara cepat menghubungi Tim Admission SHS?",
-        answer: "Anda dapat menghubungi kami langsung melalui WhatsApp official di nomor +62 812-7890-1234 atau email admissions@suriaharapanschool.sch.id pada jam operasional Senin – Jumat (07.30 – 16.00 WIB).",
+        question: "Bagaimana cara cepat menghubungi Tim Admisi SHS?",
+        answer: "Ayah dan Bunda dapat menghubungi kami langsung melalui WhatsApp resmi di nomor +62 812-7890-1234 atau email admissions@suriaharapanschool.sch.id pada jam layanan Senin – Jumat (07.30 – 16.00 WIB).",
         category: "Kontak"
       }
     ]
   },
   form: {
-    eyebrow: "MULAI DARI SINI",
-    title: "Mulai Perjalanan Anda Bersama SHS.",
-    intro: "Isi informasi singkat di bawah ini. Tim Admission akan segera menghubungi Anda untuk mendampingi langkah berikutnya.",
-    stepsTitle: "Tahapan Berikutnya",
+    eyebrow: "PENDAFTARAN DINI",
+    title: "Awali Langkah Pendidikan Putra-Putri Anda di SHS.",
+    intro: "Silakan isi data singkat di bawah ini. Tim Admisi kami akan segera menghubungi Anda untuk memberikan penjelasan lengkap dan mendampingi tahapan berikutnya.",
+    stepsTitle: "Tahapan Selanjutnya",
     steps: [
       {
         number: "01",
-        title: "Kirim informasi singkat",
-        desc: "Lengkapi formulir di samping dengan rincian calon siswa."
+        title: "Kirim data singkat",
+        desc: "Lengkapi formulir di samping dengan keterangan calon siswa."
       },
       {
         number: "02",
-        title: "Tim Admission menghubungi Anda",
-        desc: "Mendapatkan panduan, jadwal tour, atau rincian biaya."
+        title: "Tim Admisi menghubungi Anda",
+        desc: "Mendapatkan panduan, jadwal kunjungan sekolah, atau rincian biaya."
       },
       {
         number: "03",
         title: "Lanjutkan ke langkah berikutnya",
-        desc: "School visit, sesi observasi, atau pendaftaran resmi."
+        desc: "Kunjungan sekolah, sesi observasi, atau pendaftaran resmi."
       }
     ],
     trustBadges: {
-      fastResponseTitle: "Respons Cepat & Personal",
-      fastResponseDesc: "Dihubungi maksimal 1x24 jam kerja oleh tim konselor",
-      privacyTitle: "Kerahasiaan Terjamin",
-      privacyDesc: "Data keluarga Anda aman dan hanya digunakan untuk keperluan admisi resmi"
+      fastResponseTitle: "Layanan Cepat & Bersahabat",
+      fastResponseDesc: "Dihubungi maksimal dalam 1x24 jam kerja oleh konselor admisi kami",
+      privacyTitle: "Kerahasiaan Data Terjaga",
+      privacyDesc: "Data keluarga Anda aman dan hanya digunakan untuk keperluan pendaftaran resmi sekolah"
     },
     labels: {
       parentName: "Nama Orang Tua / Wali *",
-      parentNamePlaceholder: "Nama lengkap ayah / bunda",
+      parentNamePlaceholder: "Nama lengkap Ayah atau Bunda",
       whatsapp: "Nomor WhatsApp *",
       whatsappPlaceholder: "Contoh: 0812-3456-7890",
-      email: "Email (Opsional)",
+      email: "Alamat Pos-el / Email (Opsional)",
       emailPlaceholder: "nama@email.com",
       studentName: "Nama Calon Siswa *",
-      studentNamePlaceholder: "Nama lengkap putra / putri",
-      currentSchool: "Sekolah Saat Ini (Opsional)",
-      currentSchoolPlaceholder: "Asal sekolah calon siswa saat ini",
-      level: "Jenjang yang Diminati *",
-      grade: "Kelas yang Dituju *",
+      studentNamePlaceholder: "Nama lengkap putra atau putri Anda",
+      currentSchool: "Asal Sekolah Saat Ini (Opsional)",
+      currentSchoolPlaceholder: "Nama sekolah calon siswa saat ini",
+      level: "Jenjang yang Dituju *",
+      grade: "Pilihan Kelas *",
       gradePlaceholder: "Pilih kelas",
       academicYear: "Tahun Ajaran *",
-      interest: "Saya Ingin *",
+      interest: "Kebutuhan Informasi *",
       notes: "Catatan Tambahan (Opsional)",
-      notesPlaceholder: "Tuliskan pertanyaan atau kebutuhan spesifik anak...",
-      consent: "Dengan mengirimkan formulir ini, saya bersedia dihubungi oleh Tim Admission Suria Harapan School terkait informasi penerimaan siswa baru.",
-      submitBtn: "Kirim & Mulai Perjalanan →",
-      submitting: "Mengirim Data..."
+      notesPlaceholder: "Tuliskan pertanyaan khusus atau kebutuhan belajar anak...",
+      consent: "Dengan mengirimkan formulir ini, saya bersedia dihubungi oleh Tim Admisi Suria Harapan School terkait informasi penerimaan siswa baru.",
+      submitBtn: "Kirim Formulir & Mulai Konsultasi →",
+      submitting: "Sedang Mengirim Data..."
     },
     levelOptions: [
       {
@@ -663,48 +663,48 @@ export const contentId: ContentDictionary = {
     interestOptions: [
       {
         id: "admission_info",
-        label: "Informasi Penerimaan"
+        label: "Informasi Pendaftaran Siswa Baru"
       },
       {
         id: "tuition_info",
-        label: "Informasi Biaya"
+        label: "Informasi Rincian Biaya Sekolah"
       },
       {
         id: "school_tour",
-        label: "Jadwal School Tour"
+        label: "Jadwal Kunjungan ke Sekolah (School Visit)"
       },
       {
         id: "start_admission",
-        label: "Mulai Pendaftaran"
+        label: "Daftar Langsung (Formulir Resmi)"
       }
     ],
     validationErrors: {
       required: "Kolom ini wajib diisi.",
-      invalidWhatsapp: "Masukkan nomor WhatsApp yang valid (minimal 9 digit).",
-      invalidEmail: "Masukkan alamat email yang valid.",
+      invalidWhatsapp: "Masukkan nomor WhatsApp yang valid (minimal 9 digit angka).",
+      invalidEmail: "Masukkan alamat pos-el (email) yang valid.",
       levelRequired: "Silakan pilih salah satu jenjang pendidikan.",
-      consentRequired: "Anda harus menyetujui persetujuan kontak untuk melanjutkan."
+      consentRequired: "Mohon centang persetujuan kontak untuk melanjutkan."
     },
-    successToast: "Terima kasih! Informasi Anda telah berhasil diterima.",
-    errorToast: "Maaf, terjadi kendala saat mengirim. Silakan coba lagi atau hubungi via WhatsApp."
+    successToast: "Terima kasih! Formulir Anda telah berhasil kami terima.",
+    errorToast: "Mohon maaf, terjadi kendala saat mengirim. Silakan coba kembali atau hubungi kami via WhatsApp."
   },
   finalCta: {
     eyebrow: "LANGKAH SELANJUTNYA",
-    title: "Siap Mengenal SHS Lebih Dekat?",
-    description: "Mulai dengan bertanya, berkunjung, atau mengirimkan inquiry. Tim kami siap membantu Anda menemukan langkah terbaik bagi masa depan putra-putri tercinta.",
+    title: "Siap Mengenal Lebih Dekat Suria Harapan School?",
+    description: "Awali dengan berdiskusi santai, berkunjung ke sekolah kami, atau mengirimkan data pendaftaran. Tim kami siap membantu Anda memilih langkah terbaik bagi masa depan putra-putri tercinta.",
     primaryCta: "Mulai Pendaftaran",
-    secondaryCta: "Hubungi Tim Admission",
-    mapLocationTitle: "Lokasi Kampus Suria Harapan School",
-    mapLocationSubtitle: "Akses mudah di pusat Kota Jambi dengan lingkungan belajar yang aman, kondusif, dan berstandar internasional.",
-    mapAddressLabel: "Alamat Kampus",
+    secondaryCta: "Hubungi Tim Admisi",
+    mapLocationTitle: "Lokasi Suria Harapan School",
+    mapLocationSubtitle: "Akses mudah di pusat Kota Jambi dengan lingkungan belajar yang aman, tertib, dan berstandar internasional.",
+    mapAddressLabel: "Alamat Sekolah",
     mapAddressValue: "Jl. Hayam Wuruk No. 171, Talang Jauh, Kec. Jelutung, Kota Jambi, Jambi 36133",
-    mapHoursLabel: "Jam Pelayanan Admisi",
+    mapHoursLabel: "Jam Layanan Admisi",
     mapHoursValue: "Senin – Jumat: 07.30 – 15.30 WIB | Sabtu: 08.00 – 12.00 WIB",
-    mapContactLabel: "Kontak Kampus / Phone & WhatsApp",
+    mapContactLabel: "Kontak Sekolah / Telepon & WhatsApp",
     mapContactValue: "(0741) 789012 • +62 812-7890-1234",
     mapOpenInGoogleMaps: "Buka di Google Maps",
     mapGetDirections: "Petunjuk Arah",
-    mapBadge: "Kampus Terpadu: KB, TK, SD, SMP & SMA",
+    mapBadge: "Sekolah Terpadu: KB, TK, SD, SMP & SMA",
     mapEmbedQuery: "Suria Harapan School Jambi",
     mapGoogleUrl: "https://www.google.com/maps/search/?api=1&query=Suria+Harapan+School+Jambi",
     mapDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Suria+Harapan+School+Jambi",
@@ -714,8 +714,8 @@ export const contentId: ContentDictionary = {
     schoolName: "SURIA HARAPAN SCHOOL",
     tagline: "Bilingual School of Excellence",
     motto: "Shine and Be a Blessing",
-    missionSummary: "Membentuk generasi pemimpin berintegritas, berwawasan global, dan berkarakter unggul melalui kurikulum holistik berkualitas internasional.",
-    campusLabel: "Kampus Utama:",
+    missionSummary: "Membentuk generasi pemimpin yang berintegritas, berwawasan global, dan berkarakter mulia melalui pendidikan dwibahasa berkualitas internasional.",
+    campusLabel: "Alamat Sekolah:",
     address: "Jl. Hayam Wuruk No. 171, Talang Jauh, Kec. Jelutung, Kota Jambi, Jambi 36133",
     phoneLabel: "Telepon:",
     phone: "(0741) 789012",
@@ -727,15 +727,15 @@ export const contentId: ContentDictionary = {
     hours: "Senin – Jumat (07.30 – 16.00 WIB)",
     quickNavTitle: "Navigasi Cepat",
     navWhySHS: "Mengapa SHS",
-    navLearningLevels: "Jenjang Studi",
+    navLearningLevels: "Jenjang Pendidikan",
     navPhilosophy: "Filosofi Belajar",
     navStudentLife: "Kehidupan Siswa",
     navAdmissionJourney: "Alur Pendaftaran",
     navFAQ: "Tanya Jawab",
-    navMap: "Peta & Lokasi",
+    navMap: "Peta & Lokasi Sekolah",
     navForm: "Formulir PSB",
     accreditationTitle: "Akreditasi & Legalitas",
-    accreditationDesc: "Akreditasi BAN-S/M Grade A (Unggul)",
+    accreditationDesc: "Akreditasi BAN-S/M Peringkat A (Unggul)",
     spkDesc: "Satuan Pendidikan Kerjasama (SPK)",
     curriculumDesc: "Kurikulum Nasional Terpadu & Cambridge International Framework",
     statusTitle: "Status Penerimaan",
@@ -748,28 +748,28 @@ export const contentId: ContentDictionary = {
   },
   thankYouModal: {
     eyebrow: "TERIMA KASIH",
-    title: "Perjalanan Anda Bersama SHS Dimulai dari Sini.",
-    description: "Kami telah menerima informasi Anda. Tim Admission Suria Harapan School akan segera menghubungi Anda melalui nomor WhatsApp yang diberikan untuk membantu langkah berikutnya.",
-    receivedDataTitle: "Ringkasan Pendaftaran Anda:",
+    title: "Langkah Anda Bersama SHS Dimulai dari Sini.",
+    description: "Kami telah menerima informasi Anda dengan baik. Tim Admisi Suria Harapan School akan segera menghubungi Anda melalui nomor WhatsApp yang terdaftar untuk mendampingi tahapan berikutnya.",
+    receivedDataTitle: "Ringkasan Formulir yang Terkirim:",
     nextSteps: [
       {
         number: "01",
-        title: "Konfirmasi & Verifikasi Tim Admission",
-        desc: "Tim kami akan menyapa via WhatsApp dalam waktu maksimal 1x24 jam kerja."
+        title: "Konfirmasi & Verifikasi Tim Admisi",
+        desc: "Tim konselor kami akan menyapa melalui WhatsApp dalam waktu maksimal 1x24 jam kerja."
       },
       {
         number: "02",
-        title: "Penjadwalan Kunjungan atau Pengiriman Brosur",
-        desc: "Menerima jadwal school tour personal atau rincian biaya sesuai jenjang."
+        title: "Jadwal Kunjungan Sekolah atau Brosur Biaya",
+        desc: "Menerima jadwal kunjungan sekolah personal atau rincian biaya sesuai jenjang yang dipilih."
       },
       {
         number: "03",
-        title: "Panduan Lengkap Pendaftaran",
-        desc: "Didampingi secara personal hingga proses pendaftaran selesai."
+        title: "Pendampingan Pendaftaran hingga Tuntas",
+        desc: "Didampingi secara ramah dan profesional hingga proses pendaftaran selesai."
       }
     ],
     whatsappCta: "Chat Langsung via WhatsApp",
-    backBtn: "Kembali ke Halaman Utama"
+    backBtn: "Kembali ke Beranda"
   },
   adminDrawer: {
     title: "Admission Lite Console",

@@ -48,7 +48,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ content, onImageClick 
               <EditableText section="hero" field="primaryCta" value={content.primaryCta} />
             </a>
             <a
-              href="#kunjungan-kampus"
+              href="#kunjungan-sekolah"
               className="h-12 sm:h-13 px-6 rounded-lg border border-shs-border bg-surface text-shs-navy text-sm sm:text-base font-semibold inline-flex items-center justify-center gap-2 hover:bg-surface-container transition-colors"
             >
               <Icon name="calendar_today" className="text-[20px] text-amber-600" />

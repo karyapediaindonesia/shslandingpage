@@ -21,7 +21,8 @@ export const SchoolVisitSection: React.FC<SchoolVisitSectionProps> = ({
   const visitPhoto = content.visitPhoto || '/images/photo-11.png';
 
   return (
-    <section className="w-full bg-surface-container-low py-10 sm:py-14 lg:py-16 border-b border-shs-border" id="kunjungan-kampus">
+    <section className="w-full bg-surface-container-low py-10 sm:py-14 lg:py-16 border-b border-shs-border" id="kunjungan-sekolah">
+      <div id="kunjungan-kampus" className="sr-only" aria-hidden="true" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           {/* Photo side */}
@@ -33,11 +34,11 @@ export const SchoolVisitSection: React.FC<SchoolVisitSectionProps> = ({
                 positionField="visitPhotoPosition"
                 position={content.visitPhotoPosition || '50% 15%'}
                 src={visitPhoto}
-                alt="Suasana interaksi hangat & eksploratif di kampus Suria Harapan School"
+                alt="Suasana interaksi hangat & eksploratif di Suria Harapan School"
                 className="w-full h-full"
                 imgClassName="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                onImageClick={() => onImageClick(visitPhoto, 'Kunjungan Kampus & Ruang Belajar SHS')}
-                title="Ganti Foto Kunjungan Kampus"
+                onImageClick={() => onImageClick(visitPhoto, 'Kunjungan Sekolah & Ruang Belajar SHS')}
+                title="Ganti Foto Kunjungan Sekolah"
               />
             </div>
             <p className="text-xs text-on-surface-variant italic px-1">

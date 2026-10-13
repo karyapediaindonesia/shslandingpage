@@ -93,7 +93,7 @@ export const Footer: React.FC<FooterProps> = ({
             <a href="#lokasi-sekolah" className="text-xs sm:text-sm text-amber-300 font-semibold hover:underline flex items-center gap-1">
               <Icon name="pin_drop" className="text-[15px]" />
               <span>
-                <EditableText section="footer" field="navMap" value={content.navMap || (locale === 'en' ? 'Campus Map & Location' : 'Peta & Lokasi')} />
+                <EditableText section="footer" field="navMap" value={content.navMap || (locale === 'en' ? 'School Location & Map' : 'Peta & Lokasi Sekolah')} />
               </span>
             </a>
             <a href="#daftar" className="text-xs sm:text-sm text-secondary-fixed font-semibold hover:underline">
