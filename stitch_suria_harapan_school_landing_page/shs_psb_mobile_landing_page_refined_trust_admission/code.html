@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html lang="en" style=""><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline-variant": "#c4c6ce", "primary-container": "#0e2a47", "secondary": "#8a5100", "tertiary-container": "#570800", "on-background": "#1b1c1a", "surface-container-lowest": "#ffffff", "surface-container-low": "#f4f4f0", "error-container": "#ffdad6", "on-primary": "#ffffff", "primary": "#00152c", "on-surface": "#1b1c1a", "secondary-container": "#fd9d21", "tertiary-fixed": "#ffdad3", "surface-bright": "#faf9f5", "on-primary-fixed": "#001c38", "secondary-fixed-dim": "#ffb86d", "on-tertiary": "#ffffff", "on-secondary-fixed-variant": "#693c00", "inverse-surface": "#2f312e", "on-secondary-container": "#673b00", "on-primary-fixed-variant": "#2f4867", "on-secondary-fixed": "#2c1600", "inverse-on-surface": "#f2f1ed", "on-tertiary-fixed-variant": "#8d1702", "primary-fixed": "#d2e4ff", "surface": "#faf9f5", "surface-container": "#efeeea", "background": "#faf9f5", "tertiary-fixed-dim": "#ffb4a5", "surface-dim": "#dbdad6", "surface-container-highest": "#e3e2df", "primary-fixed-dim": "#afc8ed", "on-tertiary-fixed": "#3e0400", "surface-variant": "#e3e2df", "on-error": "#ffffff", "tertiary": "#310300", "inverse-primary": "#afc8ed", "error": "#ba1a1a", "secondary-fixed": "#ffdcbd", "surface-container-high": "#e9e8e4", "on-surface-variant": "#43474d", "on-secondary": "#ffffff", "outline": "#74777e", "on-error-container": "#93000a", "surface-tint": "#476080", "on-tertiary-container": "#f36044", "on-primary-container": "#7992b4" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "margin": "3rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "gutter-mobile": "1rem", "space-md": "1rem", "space-2xl": "4rem", "space-3xl": "6rem" }, "fontFamily": { "body-md": ["Plus Jakarta Sans"], "headline-xl": ["Epilogue"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "index-numeral": ["Epilogue"], "headline-lg": ["Epilogue"], "headline-md": ["Epilogue"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Epilogue"], "body-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Epilogue"], "headline-xl-mobile": ["Epilogue"], "display-hero": ["Epilogue"], "display-hero-mobile": ["Epilogue"] }, "fontSize": { "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl": ["48px", { "lineHeight": "54px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-lg": ["15px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }], "index-numeral": ["14px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-lg": ["36px", { "lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-xl-mobile": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display-hero": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }] } } } }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col antialiased selection:bg-secondary selection:text-on-secondary"><header class="fixed top-0 w-full z-50 pt-safe bg-surface border-b border-[#0e2a47]/10">
+<div class="h-16 px-gutter-mobile flex items-center justify-between">
+<a class="flex items-center gap-2.5" href="#">
+<div class="w-8 h-8 rounded-lg bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold tracking-tight shadow-sm">S</div>
+<div class="flex flex-col leading-tight">
+<span class="font-headline-sm text-[15px] font-bold text-primary tracking-tight uppercase">Suria Harapan</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant tracking-widest uppercase font-semibold">School</span>
+</div>
+</a>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1.5 text-label-sm font-semibold tracking-wider">
+<button class="text-primary font-bold hover:text-secondary transition-colors" type="button">ID</button>
+<span class="text-outline-variant text-[12px]">|</span>
+<button class="text-on-surface-variant hover:text-primary transition-colors" type="button">EN</button>
+</div>
+<button aria-label="Buka Menu" class="w-10 h-10 flex items-center justify-center rounded-lg text-primary hover:bg-surface-container active:scale-95 transition-all" onclick="document.getElementById('mobile-drawer').classList.remove('hidden')" type="button">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+</header><div class="hidden fixed inset-0 z-50 bg-primary/60 backdrop-blur-sm transition-opacity" id="mobile-drawer">
+<div class="fixed inset-y-0 right-0 w-4/5 max-w-sm bg-surface shadow-[0_4px_24px_rgba(0,0,0,0.15)] flex flex-col justify-between pt-safe pb-safe px-gutter border-l border-[#0e2a47]/10">
+<div class="pt-space-md">
+<div class="flex items-center justify-between pb-space-md border-b border-[#0e2a47]/10">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Menu Navigasi</span>
+</div>
+<button class="w-10 h-10 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container active:scale-95 transition-all" onclick="document.getElementById('mobile-drawer').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<nav class="flex flex-col gap-1 mt-space-md">
+<a class="flex items-center justify-between py-3 px-3 rounded-lg text-primary font-label-lg hover:bg-surface-container transition-colors" href="#why-shs" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="">Mengapa SHS</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_forward</span>
+</a>
+<a class="flex items-center justify-between py-3 px-3 rounded-lg text-on-surface font-label-lg hover:bg-surface-container transition-colors" href="#why-shs" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="">Jenjang Studi</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_forward</span>
+</a>
+<a class="flex items-center justify-between py-3 px-3 rounded-lg text-on-surface font-label-lg hover:bg-surface-container transition-colors" href="#why-shs" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="">Kehidupan Siswa</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_forward</span>
+</a>
+<a class="flex items-center justify-between py-3 px-3 rounded-lg text-on-surface font-label-lg hover:bg-surface-container transition-colors" href="#why-shs" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="">Alur Pendaftaran</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_forward</span>
+</a>
+<a class="flex items-center justify-between py-3 px-3 rounded-lg text-on-surface font-label-lg hover:bg-surface-container transition-colors" href="#faq-accordion-group" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="">Tanya Jawab</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_forward</span>
+</a>
+</nav>
+<div class="mt-space-md pt-space-md border-t border-[#0e2a47]/10 flex items-center justify-between px-3">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Bahasa / Language</span>
+<div class="flex items-center gap-1.5 text-label-sm font-semibold tracking-wider">
+<button class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-bold" type="button">ID</button>
+<span class="text-outline-variant text-[12px]">|</span>
+<button class="px-2.5 py-1 rounded text-on-surface-variant hover:text-primary transition-colors" type="button">EN</button>
+</div>
+</div>
+</div>
+<div class="py-space-lg flex flex-col gap-2.5 border-t border-[#0e2a47]/10">
+<a class="w-full py-3 px-4 rounded-lg border border-primary text-primary font-label-lg flex items-center justify-center gap-2 hover:bg-surface-container active:scale-98 transition-all" href="https://wa.me/6281234567890?text=Halo%20Admin%20Suria%20Harapan%20School%2C%20saya%20ingin%20tanya%20informasi%20pendaftaran" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="">Tanya Tim Admission</span>
+</a>
+<a class="w-full py-3.5 px-4 rounded-lg bg-primary text-on-primary font-label-lg flex items-center justify-center gap-2 shadow-sm hover:bg-primary-container active:scale-98 transition-all font-semibold" href="#form-pendaftaran" onclick="document.getElementById('mobile-drawer').classList.add('hidden')">
+<span class="material-symbols-outlined text-[18px] text-secondary-container">how_to_reg</span>
+<span class="">Mulai Pendaftaran</span>
+</a>
+</div>
+</div>
+</div><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full text-on-surface">
+<!-- 1. STICKY SUB-NAV / QUICK ACTION STRIP -->
+<div class="sticky top-16 z-40 bg-surface/95 backdrop-blur-md px-gutter-mobile py-2.5 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span class="font-headline-sm text-label-md text-primary tracking-tight">PSB 2025/2026</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="flex items-center bg-surface-container-high rounded-full p-0.5" id="lang-switch-box">
+<button class="px-2 py-0.5 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm shadow-sm transition-all font-bold" id="btn-lang-id" onclick="setLang('id')" type="button">ID</button>
+<button class="px-2 py-0.5 rounded-full text-on-surface-variant font-label-sm text-label-sm hover:text-on-surface transition-all" id="btn-lang-en" onclick="setLang('en')" type="button">EN</button>
+</div>
+<a class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm hover:bg-primary-container transition-all active:scale-95 shadow-sm" href="#form-pendaftaran">
+        Start Admission
+      </a>
+</div>
+</div>
+<!-- 2. HERO SECTION -->
+<section class="px-gutter-mobile pt-space-lg pb-space-xl flex flex-col gap-space-md">
+<div class="flex items-center gap-2.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm font-bold tracking-wider text-secondary uppercase">
+      Penerimaan Siswa Baru [VERIFY: 2025/2026]
+    </span>
+</div>
+<div class="flex flex-col gap-1">
+<h1 class="font-display-hero-mobile text-display-hero-mobile text-primary tracking-tight leading-[1.15]">
+      Tempat untuk Belajar, Bertumbuh, dan <span class="relative inline-block text-primary underline decoration-secondary-container decoration-4 underline-offset-4">Bersinar.</span>
+</h1>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+    Di Suria Harapan School, belajar bukan hanya tentang memahami pelajaran, tetapi juga tentang bertanya, mencoba, berkolaborasi, menemukan minat, dan bertumbuh menjadi pribadi yang percaya diri serta bertanggung jawab.
+  </p>
+<div class="flex flex-col gap-3 pt-space-xs">
+<a class="w-full py-3.5 px-6 rounded-lg bg-primary text-on-primary font-label-lg flex items-center justify-center gap-2 shadow-sm hover:opacity-95 active:scale-[0.98] transition-all font-semibold" href="#form-pendaftaran">
+<span class="">Mulai Pendaftaran</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="w-full py-2.5 px-4 text-center font-label-lg text-primary hover:text-secondary flex items-center justify-center gap-1.5 transition-colors font-medium" href="#why-shs">
+<span class="">Kenali SHS ↓</span>
+</a>
+</div>
+<div class="flex items-center justify-center gap-2 text-center text-label-sm text-on-surface-variant font-medium py-1">
+<span class="">[VERIFY: Akreditasi A]</span>
+<span class="text-outline-variant">•</span>
+<span class="">[VERIFY: KB hingga SMA]</span>
+</div>
+<!-- Editorial Real Student Photography Feature -->
+<div class="mt-space-sm flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Authentic Indonesian high school students collaborating actively in bright sunlit modern classroom on STEM robotics project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XHRvC8tBvNQXRJGbydyfBvK8ber0Z6U0j9FW8Yw0GSYV50F4Yj2lefOP8PdVVm-SH_RcPJONKaAmNk_bNF0-Dd504xwUzGaEPY-ADGIyvnRYf3MyZskvsvANRFa33zv_qOOn5hDpwaN6WSQXSbejBZKCfMxCSJnjTVklHOAZGjGMZ-dqVu21bWxHtxqdxLxkYvkMqb8i_mo3Q7fY4EFgFUbQuad0OATlYzQLSxcsa1EA"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[11px] uppercase tracking-wider flex items-center gap-1.5 font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container animate-pulse"></span>
+        Momen Kampus
+      </div>
+</div>
+<div class="p-space-md flex items-center justify-between bg-surface-container-lowest">
+<div class="flex flex-col">
+<span class="font-headline-sm text-label-lg text-primary font-bold">Laboratorium Sains &amp; Robotika SHS</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Eksplorasi pemecahan masalah &amp; inovasi teknologi</span>
+</div>
+<span class="font-index-numeral text-index-numeral text-secondary font-bold shrink-0 ml-2">PLATE 01</span>
+</div>
+</div>
+</section>
+<!-- 3. SHS AT A GLANCE (Stat Block) -->
+<section class="px-gutter-mobile py-space-lg bg-surface-container-low flex flex-col gap-space-md"><div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">SHS AT A GLANCE</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+    Sekilas tentang SHS
+  </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+    Beberapa hal penting yang membentuk pengalaman belajar di Suria Harapan School.
+  </p>
+</div>
+<div class="grid grid-cols-2 gap-y-6 gap-x-4 pt-2 border-t border-[#0e2a47]/10">
+<div class="flex flex-col gap-1">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-primary font-bold leading-tight">[VERIFY: Tahun Berdiri]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Tahun Berdiri</span>
+</div>
+<div class="flex flex-col gap-1 border-l border-[#0e2a47]/10 pl-4">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-secondary font-bold leading-tight">[VERIFY: Jenjang]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Jenjang KB–SMA</span>
+</div>
+<div class="flex flex-col gap-1 border-t border-[#0e2a47]/10 pt-4">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-primary font-bold leading-tight">[VERIFY: Akreditasi]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Akreditasi Nasional</span>
+</div>
+<div class="flex flex-col gap-1 border-t border-l border-[#0e2a47]/10 pt-4 pl-4">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-primary font-bold leading-tight">[VERIFY: Bahasa]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Bahasa Pengantar</span>
+</div>
+</div></section>
+<!-- 4. WHY SHS -->
+<section class="px-gutter-mobile py-space-xl flex flex-col gap-space-lg" id="why-shs"><div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<span class="font-index-numeral text-index-numeral text-secondary font-bold">01</span>
+<span class="w-6 h-0.5 bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Nilai Inti Kami</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+    Lebih dari Sekadar Tempat Belajar.
+  </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+    Kami percaya pengalaman sekolah yang baik membantu siswa berkembang secara akademik, pribadi, sosial, dan dalam hal-hal yang mereka sukai.
+  </p>
+</div>
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Candid authentic school photography of energetic Indonesian secondary school students playing basketball on an outdoor bright sunny school court" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VAvVjZVSDLb_YhuJXeN5NTs2ExCCXUyKIhnzeZIICPkD4TJHgutbpZu22GP4YSChgONUlKx3njTZl9bpIyZTCV_s1KPil5hwb1SPBZVoEH8cjUCnUuqCVYnTdl_Lias2_sFgVake54LvBbPR6JOSAOH5kUS_I9FriD10dRFYFbKhOE-56eua4P4xYCw37ZShHYxlQ9Pqx5krYJMuym1L7uXYydLDnJXglvAsOnWtGq-Q"/>
+<div class="absolute bottom-3 left-3 px-2.5 py-1 rounded-md bg-primary-container text-on-primary font-label-sm text-label-sm flex items-center gap-1.5 shadow-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">groups</span>
+      Tumbuh Bersama Komunitas Sehat
+    </div>
+</div>
+</div>
+<div class="flex flex-col divide-y divide-[#0e2a47]/10">
+<div class="py-space-md flex gap-space-md items-start">
+<span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">01</span>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Belajar dengan Aktif</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Siswa didorong untuk bertanya, mencoba, berdiskusi, dan menemukan pemahaman melalui pengalaman belajar yang aktif dan relevan.
+      </p>
+</div>
+</div>
+<div class="py-space-md flex gap-space-md items-start">
+<span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">02</span>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Bertumbuh dalam Karakter</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Pendidikan tidak berhenti pada nilai akademik. SHS juga memberi ruang bagi siswa untuk belajar bertanggung jawab, menghargai orang lain, bekerja sama, dan menghadapi tantangan.
+      </p>
+</div>
+</div>
+<div class="py-space-md flex gap-space-md items-start">
+<span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">03</span>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Menemukan Minat dan Talenta</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Melalui berbagai pengalaman di dalam dan di luar kelas, siswa memiliki kesempatan untuk mengenali kekuatan, minat, dan potensi mereka.
+      </p>
+</div>
+</div>
+<div class="py-space-md flex gap-space-md items-start">
+<span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">04</span>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Tumbuh dalam Komunitas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Sekolah adalah tempat anak belajar bersama teman, guru, dan keluarga. Hubungan yang hangat dan kolaboratif menjadi bagian penting dari pengalaman belajar di SHS.
+      </p>
+</div>
+</div>
+</div>
+<div class="pt-1">
+<a class="font-label-lg text-label-lg text-primary font-bold inline-flex items-center gap-1.5 hover:text-secondary transition-colors" href="https://wa.me/6281234567890?text=Halo%20Admin%20Suria%20Harapan%20School%2C%20saya%20ingin%20tanya%20informasi%20pendaftaran">
+<span class="">Hubungi Tim Admission</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div></section>
+<!-- 5. FIND YOUR LEARNING JOURNEY -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low flex flex-col gap-space-lg" id="learning-levels">
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<span class="font-index-numeral text-index-numeral text-secondary font-bold">02</span>
+<span class="w-6 h-0.5 bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">JENJANG PENDIDIKAN</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+      Tempat untuk Bertumbuh Sesuai Tahapannya.
+    </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+      Setiap tahap perkembangan membutuhkan pendekatan yang berbeda. Jelajahi pengalaman belajar SHS sesuai jenjang anak Anda.
+    </p>
+</div>
+<div class="flex flex-col gap-space-lg">
+<!-- Panel 01: Early Learning -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Early Childhood Learning" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu3EqpninHDULBjB6dQ_586s9k378hQogqZj4zqTHbVUhQqzu3XLtKcQb__Lu0ezV7w2PtUjEfK2RBZHPAqLyv8eWNmsSOu7EU-BGgItSMUmk7RCNc7FXYDqbUlI6YWRHhCnGhqjVTV87i0kjfdt4FMSjfHK_l8Ojd4Q7xeqr88zxD-oxmp1gLmz9pk12KI0bWXVP5-Vkt8SKkjdjX6uerFEGKAy0FVTaCdrsZuE0eLZ9HprzWT2xzEQ"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[11px] uppercase tracking-wider font-bold">
+          [VERIFY: Usia 2–6 Tahun]
+        </div>
+</div>
+<div class="p-space-md flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">01 Early Learning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Masa awal untuk membangun rasa ingin tahu, keberanian mencoba, kemandirian, dan kegembiraan dalam belajar.
+        </p>
+<div class="pt-1">
+<a class="font-label-md text-label-md text-primary font-bold inline-flex items-center gap-1 hover:text-secondary transition-colors" href="#form-pendaftaran">
+<span class="">Jelajahi Early Learning</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Panel 02: Primary -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Primary School Students Reading" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwH0MBnauXYLCeQw0uXJyvMSfXJYEjORS5nKRWTSrDjnhOSP6HB03cI08pRPLlFFbz_5qJmGj_ol2LSXlaXpSD5l5B3ThsdJhAdU-2Lk4PyVE-GZ-Qij0h-A_Am8Cyy5KZcLIDspm7u1tU26L1FmVEJhKRTFgpO-dpN4oREEGr_n7qR6W9Gf2iu-4iFY4_ICn-slshSokqcs7tNkP6MngTQxmWI0ICGnAjSqVsRvId8WGpV4WTp8QKAQ"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[11px] uppercase tracking-wider font-bold">
+          [VERIFY: Usia 6–12 Tahun]
+        </div>
+</div>
+<div class="p-space-md flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">02 Primary</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Masa untuk memperkuat dasar akademik sekaligus membangun kebiasaan belajar, rasa ingin tahu, keterampilan sosial, dan kepercayaan diri.
+        </p>
+<div class="pt-1">
+<a class="font-label-md text-label-md text-primary font-bold inline-flex items-center gap-1 hover:text-secondary transition-colors" href="#form-pendaftaran">
+<span class="">Jelajahi Primary</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Panel 03: Secondary -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Secondary School Students Active STEM Collaboration" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XHRvC8tBvNQXRJGbydyfBvK8ber0Z6U0j9FW8Yw0GSYV50F4Yj2lefOP8PdVVm-SH_RcPJONKaAmNk_bNF0-Dd504xwUzGaEPY-ADGIyvnRYf3MyZskvsvANRFa33zv_qOOn5hDpwaN6WSQXSbejBZKCfMxCSJnjTVklHOAZGjGMZ-dqVu21bWxHtxqdxLxkYvkMqb8i_mo3Q7fY4EFgFUbQuad0OATlYzQLSxcsa1EA"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[11px] uppercase tracking-wider font-bold">
+          [VERIFY: Usia 12–18 Tahun]
+        </div>
+</div>
+<div class="p-space-md flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">03 Secondary</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Masa untuk belajar lebih mandiri, memahami kekuatan diri, menghadapi tantangan akademik, dan mempersiapkan langkah berikutnya.
+        </p>
+<div class="pt-1">
+<a class="font-label-md text-label-md text-primary font-bold inline-flex items-center gap-1 hover:text-secondary transition-colors" href="#form-pendaftaran">
+<span class="">Jelajahi Secondary</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. LEARNING AT SHS (Experiential Verbs) -->
+<section class="px-gutter-mobile py-space-xl bg-[#0e2a47] text-on-primary flex flex-col gap-space-lg" id="learning-at-shs">
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-secondary-container uppercase tracking-widest font-bold">FILOSOFI BELAJAR</span>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-on-primary font-bold">
+      Belajar dengan Bertanya, Mencoba, dan Menemukan.
+    </h2>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+      Pembelajaran yang bermakna terjadi ketika siswa tidak hanya menerima informasi, tetapi terlibat aktif dalam proses memahami, mencoba, berdiskusi, dan merefleksikan.
+    </p>
+</div>
+<!-- Feature photo of engaged students -->
+<div class="rounded-xl overflow-hidden border border-white/10">
+<div class="relative w-full aspect-[4/3] bg-primary">
+<img alt="Students actively learning and discussing STEM project in classroom" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XHRvC8tBvNQXRJGbydyfBvK8ber0Z6U0j9FW8Yw0GSYV50F4Yj2lefOP8PdVVm-SH_RcPJONKaAmNk_bNF0-Dd504xwUzGaEPY-ADGIyvnRYf3MyZskvsvANRFa33zv_qOOn5hDpwaN6WSQXSbejBZKCfMxCSJnjTVklHOAZGjGMZ-dqVu21bWxHtxqdxLxkYvkMqb8i_mo3Q7fY4EFgFUbQuad0OATlYzQLSxcsa1EA"/>
+<div class="absolute bottom-3 left-3 px-2.5 py-1 rounded-md bg-primary/90 backdrop-blur-sm text-on-primary font-label-sm text-[11px] uppercase tracking-wider font-semibold">
+        Eksplorasi &amp; Penemuan Langsung
+      </div>
+</div>
+</div>
+<!-- 4 Learning Verbs with large editorial typography, no repetitive icon cards -->
+<div class="flex flex-col divide-y divide-white/10 border-t border-b border-white/10">
+<div class="py-space-md flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-secondary-container font-bold tracking-tight">ASK</span>
+<span class="font-label-sm text-label-sm text-on-primary-container/80 uppercase font-semibold">/ Bertanya</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+        Rasa ingin tahu menjadi awal dari proses belajar.
+      </p>
+</div>
+<div class="py-space-md flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-secondary-container font-bold tracking-tight">EXPLORE</span>
+<span class="font-label-sm text-label-sm text-on-primary-container/80 uppercase font-semibold">/ Mengeksplorasi</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+        Siswa diberi ruang untuk mencoba berbagai cara dan kemungkinan.
+      </p>
+</div>
+<div class="py-space-md flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-secondary-container font-bold tracking-tight">CREATE</span>
+<span class="font-label-sm text-label-sm text-on-primary-container/80 uppercase font-semibold">/ Menciptakan</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+        Ide berkembang ketika siswa diberi kesempatan untuk membuat, memecahkan masalah, dan bereksperimen.
+      </p>
+</div>
+<div class="py-space-md flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-secondary-container font-bold tracking-tight">COLLABORATE</span>
+<span class="font-label-sm text-label-sm text-on-primary-container/80 uppercase font-semibold">/ Berkolaborasi</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+        Belajar bersama membantu siswa memahami sudut pandang, bekerja dalam tim, dan berkomunikasi lebih baik.
+      </p>
+</div>
+</div>
+<div class="pt-1">
+<a class="font-label-md text-label-md text-secondary-container inline-flex items-center gap-1.5 hover:underline transition-all font-semibold" href="#why-shs">
+<span class="">Kenali pengalaman belajar SHS</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- 7. BEYOND THE CLASSROOM (Student Pursuits) -->
+<section class="px-gutter-mobile py-space-xl flex flex-col gap-space-lg" id="beyond-the-classroom">
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<span class="font-index-numeral text-index-numeral text-secondary font-bold">03</span>
+<span class="w-6 h-0.5 bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Ekstrakurikuler &amp; Minat</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-tight">
+      Karena Banyak Hal Penting Dipelajari di Luar Buku.
+    </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+      Pengalaman siswa juga dibentuk melalui kegiatan, proyek, olahraga, seni, musik, teknologi, dan berbagai kesempatan untuk mencoba hal baru.
+    </p>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Item 1: Sport -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Kegiatan Olahraga Siswa SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VAvVjZVSDLb_YhuJXeN5NTs2ExCCXUyKIhnzeZIICPkD4TJHgutbpZu22GP4YSChgONUlKx3njTZl9bpIyZTCV_s1KPil5hwb1SPBZVoEH8cjUCnUuqCVYnTdl_Lias2_sFgVake54LvBbPR6JOSAOH5kUS_I9FriD10dRFYFbKhOE-56eua4P4xYCw37ZShHYxlQ9Pqx5krYJMuym1L7uXYydLDnJXglvAsOnWtGq-Q"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-primary/90 backdrop-blur-sm text-on-primary font-label-sm text-[11px] font-bold tracking-wider uppercase">SPORT</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Olahraga &amp; Kebersamaan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Bergerak, bekerja sama, dan belajar disiplin melalui olahraga.
+        </p>
+</div>
+</div>
+<!-- Item 2: Music -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Ensemble Musik dan Paduan Suara SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM9lm2s03lN-Qs-1hJf7IVun1iXMv7wmqAUHOyknjZ91B7PgUTmsckkgwzU057fb_eR-LNDfq_UJwWEVKmzP8b0T4Jysh1p3fJI6AiUDD2XuUfdssPb2hRrQhF1HDICHg-XfY3GBoYewzqZOKoL6IcyFxjr4tQSEUBywqiaP0ELIVa5YIHuFDAfTOSyoQ2h_RiYB0uU5kjdR5q3eJkjwoXgCfytt_ud0qrGHjkNNO5hnUR70H7TtKbzg"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-primary/90 backdrop-blur-sm text-on-primary font-label-sm text-[11px] font-bold tracking-wider uppercase">MUSIC</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Musik &amp; Ekspresi Diri</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Mengekspresikan diri, membangun fokus, dan belajar tampil dengan percaya diri.
+        </p>
+</div>
+</div>
+<!-- Item 3: Science & Technology -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Eksplorasi Sains dan Teknologi SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XHRvC8tBvNQXRJGbydyfBvK8ber0Z6U0j9FW8Yw0GSYV50F4Yj2lefOP8PdVVm-SH_RcPJONKaAmNk_bNF0-Dd504xwUzGaEPY-ADGIyvnRYf3MyZskvsvANRFa33zv_qOOn5hDpwaN6WSQXSbejBZKCfMxCSJnjTVklHOAZGjGMZ-dqVu21bWxHtxqdxLxkYvkMqb8i_mo3Q7fY4EFgFUbQuad0OATlYzQLSxcsa1EA"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-primary/90 backdrop-blur-sm text-on-primary font-label-sm text-[11px] font-bold tracking-wider uppercase">SCIENCE &amp; TECHNOLOGY</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Inovasi Sains &amp; Robotika</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Mengeksplorasi ide, memecahkan masalah, dan memahami dunia melalui eksperimen dan teknologi.
+        </p>
+</div>
+</div>
+<!-- Item 4: Arts -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img alt="Studio Seni Rupa dan Lukis SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeXKEQnKYwWk46LfngUqUSnS-62ymHkr3tsngZ72fyMwHJMe4R_e_1rWmlsXh-Hy_spdv9eggqsAPRLVgksUIIETWVqfWBzkIw44smJwq5MxIuN9mswGObcQxHCg-kw6oGxCrFfUMmvNuPylWIGqVmSUeYHraUYczpmCvrJWxLg-AkAzyzXD2b0zOax9l8KCyb30Y-Jx9QlMIp4xHyOWlHHrcToKknQ0uDcHYPb4LhwAYSsD3Odev2tQ"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-primary/90 backdrop-blur-sm text-on-primary font-label-sm text-[11px] font-bold tracking-wider uppercase">ARTS</span>
+</div>
+<div class="p-space-md flex flex-col gap-1">
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Seni Rupa &amp; Imajinasi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Ruang untuk berimajinasi, berkarya, dan melihat sesuatu dari sudut pandang yang berbeda.
+        </p>
+</div>
+</div>
+<!-- Item 5: Life Skills -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold tracking-wider uppercase">LIFE SKILLS</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+</div>
+<h3 class="font-headline-sm text-label-lg text-primary font-bold">Kemandirian &amp; Tanggung Jawab</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Belajar menjadi lebih mandiri, bertanggung jawab, dan siap menghadapi kehidupan sehari-hari.
+      </p>
+</div>
+</div>
+<div class="pt-1">
+<a class="font-label-md text-label-md text-primary font-bold inline-flex items-center gap-1.5 hover:text-secondary transition-colors" href="#why-shs">
+<span class="">Lihat lebih banyak kehidupan siswa</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- 8. LIFE AT SHS (Collage Snippet) -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low flex flex-col gap-space-lg" id="life-at-shs">
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">KESEHARIAN SISWA</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-tight">
+      Sekolah Seharusnya Terasa Hidup.
+    </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+      Kelas, lapangan, panggung, proyek, percakapan, dan pertemanan—semuanya menjadi bagian dari pengalaman tumbuh bersama di SHS.
+    </p>
+</div>
+<!-- Photo journal feed: 2x2 grid format -->
+<div class="grid grid-cols-2 gap-3">
+<!-- Moment 1: Saat Belajar -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img alt="Saat Belajar di SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WgSU_K0EReaRPvcjrTdn-Ce-FoGpUa6T40ZdoDHwLZoy9shoLD_A7ZdxHAu6BszxaZXBCH0DaJdRTR94vmKo43s_yQGAF1GcOkx-fiYoKG4oH8Mo8ygFRNIa-UJ_EfF0L5C-shqgeVUCXooaFnSkVXTemABFm826w7_sPW-fU3wSOXuRAD-OjGVYk9UM2GgvqrX9JiyxV_kv043sXYujzlFi_Oe-dMrUYVzST5r_0obOvw2v-C92G6Rg0"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[10px] font-bold">
+          Saat Belajar
+        </div>
+</div>
+</div>
+<!-- Moment 2: Saat Bermain -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img alt="Saat Bermain di Lapangan SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VAvVjZVSDLb_YhuJXeN5NTs2ExCCXUyKIhnzeZIICPkD4TJHgutbpZu22GP4YSChgONUlKx3njTZl9bpIyZTCV_s1KPil5hwb1SPBZVoEH8cjUCnUuqCVYnTdl_Lias2_sFgVake54LvBbPR6JOSAOH5kUS_I9FriD10dRFYFbKhOE-56eua4P4xYCw37ZShHYxlQ9Pqx5krYJMuym1L7uXYydLDnJXglvAsOnWtGq-Q"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[10px] font-bold">
+          Saat Bermain
+        </div>
+</div>
+</div>
+<!-- Moment 3: Saat Tampil -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img alt="Saat Tampil Musik di SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM9lm2s03lN-Qs-1hJf7IVun1iXMv7wmqAUHOyknjZ91B7PgUTmsckkgwzU057fb_eR-LNDfq_UJwWEVKmzP8b0T4Jysh1p3fJI6AiUDD2XuUfdssPb2hRrQhF1HDICHg-XfY3GBoYewzqZOKoL6IcyFxjr4tQSEUBywqiaP0ELIVa5YIHuFDAfTOSyoQ2h_RiYB0uU5kjdR5q3eJkjwoXgCfytt_ud0qrGHjkNNO5hnUR70H7TtKbzg"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[10px] font-bold">
+          Saat Tampil
+        </div>
+</div>
+</div>
+<!-- Moment 4: Saat Berkarya -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm">
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img alt="Saat Berkarya di Studio Seni SHS" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeXKEQnKYwWk46LfngUqUSnS-62ymHkr3tsngZ72fyMwHJMe4R_e_1rWmlsXh-Hy_spdv9eggqsAPRLVgksUIIETWVqfWBzkIw44smJwq5MxIuN9mswGObcQxHCg-kw6oGxCrFfUMmvNuPylWIGqVmSUeYHraUYczpmCvrJWxLg-AkAzyzXD2b0zOax9l8KCyb30Y-Jx9QlMIp4xHyOWlHHrcToKknQ0uDcHYPb4LhwAYSsD3Odev2tQ"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[10px] font-bold">
+          Saat Berkarya
+        </div>
+</div>
+</div>
+</div>
+<!-- Editorial Micro-story -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">auto_stories</span>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+      Satu hari di sekolah bisa berisi banyak hal: berdiskusi di kelas, mencoba hal baru, bermain bersama teman, dan pulang dengan cerita baru.
+    </p>
+</div>
+</section>
+<!-- 9. TRUST & ACHIEVEMENTS (Parent Confidence) -->
+<section class="px-gutter-mobile py-space-xl flex flex-col gap-space-lg" id="trust-and-achievements"><div class="flex flex-col gap-1.5"><div class="flex items-center gap-2"><span class="font-index-numeral text-index-numeral text-secondary font-bold">04</span><span class="w-6 h-0.5 bg-secondary-container"></span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">KREDIBILITAS &amp; FAKTA</span></div><h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-tight">Hal-Hal yang Membuat Orang Tua Lebih Yakin.</h2><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Kami menampilkan informasi yang relevan dan dapat diverifikasi—mulai dari akreditasi, program, hingga capaian siswa.</p></div><div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest border border-[#0e2a47]/10 shadow-sm"><div class="relative w-full aspect-[4/3] overflow-hidden bg-surface-container"><img alt="Authentic school photography of Southeast Asian Indonesian students collaborating actively in modern classroom on STEM project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XHRvC8tBvNQXRJGbydyfBvK8ber0Z6U0j9FW8Yw0GSYV50F4Yj2lefOP8PdVVm-SH_RcPJONKaAmNk_bNF0-Dd504xwUzGaEPY-ADGIyvnRYf3MyZskvsvANRFa33zv_qOOn5hDpwaN6WSQXSbejBZKCfMxCSJnjTVklHOAZGjGMZ-dqVu21bWxHtxqdxLxkYvkMqb8i_mo3Q7fY4EFgFUbQuad0OATlYzQLSxcsa1EA"/><div class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-primary/85 backdrop-blur-sm text-on-primary font-label-sm text-[11px] uppercase tracking-wider font-bold flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container animate-pulse"></span>Kolaborasi Kelas</div></div><div class="p-space-md bg-surface-container-lowest flex items-center justify-between"><span class="font-body-sm text-body-sm text-on-surface-variant">Siswa belajar merumuskan masalah dan bekerja dalam tim.</span><span class="font-index-numeral text-index-numeral text-secondary font-bold shrink-0 ml-2">VERIFIED</span></div></div><div class="flex flex-col divide-y divide-[#0e2a47]/10 border-t border-b border-[#0e2a47]/10"><div class="py-space-md flex flex-col gap-1"><span class="font-headline-sm text-headline-sm text-primary font-bold">[VERIFY: Akreditasi A]</span><span class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">Status Akreditasi Nasional</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-0.5">Menjamin standar pengajaran, tata kelola sekolah, dan fasilitas belajar yang teruji secara berkala oleh BAN-S/M.</p></div><div class="py-space-md flex flex-col gap-1"><span class="font-headline-sm text-headline-sm text-primary font-bold">[VERIFY: Kurikulum Nasional &amp; Global]</span><span class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">Bahasa Pengantar &amp; Kurikulum</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-0.5">Perpaduan kurikulum nasional dengan kerangka bilingual kontekstual untuk kesiapan akademik lokal maupun internasional.</p></div><div class="py-space-md flex flex-col gap-1"><span class="font-headline-sm text-headline-sm text-primary font-bold">[VERIFY: Capaian &amp; Prestasi Siswa]</span><span class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">Prestasi Akademik &amp; Karakter</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-0.5">Binaan terarah pada berbagai kompetisi sains, seni, kepemimpinan, dan proyek pengabdian masyarakat.</p></div><div class="py-space-md flex flex-col gap-1"><span class="font-headline-sm text-headline-sm text-primary font-bold">[VERIFY: Jalur Perguruan Tinggi &amp; Karir]</span><span class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">Persiapan Studi Lanjutan</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-0.5">Pendampingan portofolio dan konseling studi lanjut menuju perguruan tinggi negeri terkemuka dan luar negeri.</p></div></div></section>
+<!-- 10. ADMISSION JOURNEY (Vertical Timeline) -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low flex flex-col gap-space-lg" id="admission-journey"><div class="flex flex-col gap-1.5"><div class="flex items-center gap-2"><span class="font-index-numeral text-index-numeral text-secondary font-bold">05</span><span class="w-6 h-0.5 bg-secondary-container"></span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">ALUR PENERIMAAN</span></div><h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-tight">Langkah yang Jelas dari Awal hingga Bergabung.</h2><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Kami ingin proses penerimaan siswa terasa sederhana dan mudah dipahami. Berikut tahapan umum yang akan Anda lalui.</p></div><div class="flex flex-col divide-y divide-[#0e2a47]/10"><div class="py-space-md flex gap-space-md items-start"><span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">01</span><div class="flex flex-col gap-1"><h3 class="font-headline-sm text-label-lg text-primary font-bold">Konsultasi Awal</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Hubungi Tim Admission atau isi formulir untuk mendapatkan informasi sesuai jenjang yang Anda minati.</p></div></div><div class="py-space-md flex gap-space-md items-start"><span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">02</span><div class="flex flex-col gap-1"><h3 class="font-headline-sm text-label-lg text-primary font-bold">Kunjungan Sekolah</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Kenali lingkungan belajar SHS secara langsung melalui school tour atau konsultasi di sekolah.</p></div></div><div class="py-space-md flex gap-space-md items-start"><span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">03</span><div class="flex flex-col gap-1"><h3 class="font-headline-sm text-label-lg text-primary font-bold">Asesmen &amp; Observasi</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Tahap ini dilakukan sesuai kebijakan dan kebutuhan masing-masing jenjang. <span class="font-semibold text-primary">[VERIFY: Applicable Levels]</span></p></div></div><div class="py-space-md flex gap-space-md items-start"><span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">04</span><div class="flex flex-col gap-1"><h3 class="font-headline-sm text-label-lg text-primary font-bold">Konfirmasi Penerimaan</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Tim Admission akan menginformasikan hasil dan langkah administratif berikutnya.</p></div></div><div class="py-space-md flex gap-space-md items-start"><span class="font-headline-xl-mobile text-[28px] text-secondary font-bold shrink-0 leading-none pt-0.5">05</span><div class="flex flex-col gap-1"><h3 class="font-headline-sm text-label-lg text-primary font-bold">Pendaftaran Resmi</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Lengkapi proses administrasi dan bersiap menjadi bagian dari komunitas SHS.</p></div></div></div><div class="flex flex-col gap-2.5 pt-2"><a class="w-full py-3.5 px-4 rounded-lg bg-primary text-on-primary font-label-lg flex items-center justify-center gap-2 shadow-sm hover:bg-primary-container active:scale-98 transition-all font-semibold" href="#form-pendaftaran"><span class="material-symbols-outlined text-[18px] text-secondary-container">how_to_reg</span><span>Mulai Pendaftaran</span></a><a class="w-full py-3 px-4 rounded-lg border border-primary text-primary font-label-lg flex items-center justify-center gap-2 hover:bg-surface-container active:scale-98 transition-all" href="https://wa.me/6281234567890?text=Halo%20Admin%20Suria%20Harapan%20School%2C%20saya%20ingin%20tanya%20tahapan%20penerimaan%20siswa"><span class="material-symbols-outlined text-[18px]">chat</span><span>Hubungi Tim Admission</span></a></div></section>
+<!-- 11. TIMELINE & SCHOOL VISIT INVITE -->
+<section class="px-gutter-mobile py-space-xl flex flex-col gap-space-md">
+<div class="p-space-lg rounded-xl bg-primary-container text-on-primary flex flex-col gap-space-sm shadow-md">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold w-fit uppercase">
+        Early Bird PSB
+      </span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary">
+        Datang, Lihat, dan Rasakan Sendiri.
+      </h3>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+        Suasana sekolah yang sesungguhnya paling baik dirasakan langsung saat anak-anak sedang beraktivitas dan guru berinteraksi.
+      </p>
+<div class="pt-2 flex flex-col gap-2">
+<a class="py-3 px-4 rounded-lg bg-secondary-container text-on-secondary-container font-label-lg text-label-lg text-center font-bold shadow-md hover:brightness-110 active:scale-98 transition-all" href="#form-pendaftaran">
+          Jadwalkan Tur Sekolah
+        </a>
+<a class="py-2.5 px-4 rounded-lg bg-surface-container-lowest/10 text-on-primary font-label-md text-label-md text-center hover:bg-surface-container-lowest/20 transition-all flex items-center justify-center gap-2" href="https://wa.me/6281234567890?text=Halo%20Admin%20Suria%20Harapan%20School%2C%20saya%20ingin%20tanya%20jadwal%20tour%20sekolah">
+<span class="material-symbols-outlined text-[18px]">chat</span> Chat Admission Officer
+        </a>
+</div>
+</div>
+</section>
+<!-- 12. FAQ (Interactive Accordions) -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low flex flex-col gap-space-lg"><div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">SHS AT A GLANCE</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+    Sekilas tentang SHS
+  </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+    Beberapa hal penting yang membentuk pengalaman belajar di Suria Harapan School.
+  </p>
+</div>
+<div class="grid grid-cols-2 gap-y-6 gap-x-4 pt-2 border-t border-[#0e2a47]/10">
+<div class="flex flex-col gap-1">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-primary font-bold leading-tight">[VERIFY: Tahun Berdiri]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Tahun Berdiri</span>
+</div>
+<div class="flex flex-col gap-1 border-l border-[#0e2a47]/10 pl-4">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-secondary font-bold leading-tight">[VERIFY: Jenjang]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Jenjang KB–SMA</span>
+</div>
+<div class="flex flex-col gap-1 border-t border-[#0e2a47]/10 pt-4">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-primary font-bold leading-tight">[VERIFY: Akreditasi]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Akreditasi Nasional</span>
+</div>
+<div class="flex flex-col gap-1 border-t border-l border-[#0e2a47]/10 pt-4 pl-4">
+<span class="font-display-hero-mobile text-headline-lg-mobile text-primary font-bold leading-tight">[VERIFY: Bahasa]</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Bahasa Pengantar</span>
+</div>
+</div></section>
+<!-- 13. START YOUR SHS JOURNEY (Lead Gen Form) -->
+<section class="px-gutter-mobile py-space-xl bg-surface-container-low flex flex-col gap-space-lg" id="admission-timeline"><div class="flex flex-col gap-1.5"><div class="flex items-center gap-2"><span class="font-index-numeral text-index-numeral text-secondary font-bold">06</span><span class="w-6 h-0.5 bg-secondary-container"></span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">JADWAL &amp; PERIODE</span></div><h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-tight">Rencanakan Langkah Anda Lebih Awal.</h2><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Pilih jenjang untuk melihat periode penerimaan yang sesuai.</p></div><div class="flex items-center bg-surface-container rounded-lg p-1 gap-1 border border-[#0e2a47]/10"><button class="flex-1 py-2 text-center rounded-md bg-surface-container-lowest text-primary font-label-sm font-bold shadow-sm transition-all" type="button">Early Learning</button><button class="flex-1 py-2 text-center rounded-md text-on-surface-variant font-label-sm hover:text-primary transition-all" type="button">Primary</button><button class="flex-1 py-2 text-center rounded-md text-on-surface-variant font-label-sm hover:text-primary transition-all" type="button">Secondary</button></div><div class="flex flex-col divide-y divide-[#0e2a47]/10 border-t border-b border-[#0e2a47]/10"><div class="py-3.5 flex items-start justify-between gap-3"><div class="flex flex-col gap-0.5"><span class="font-headline-sm text-label-lg text-primary font-bold">Pembukaan Pendaftaran</span><span class="font-body-sm text-body-sm text-on-surface-variant">Penerimaan formulir dan konsultasi intake baru</span></div><span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded shrink-0">[VERIFY: Periode Pembukaan PSB]</span></div><div class="py-3.5 flex items-start justify-between gap-3"><div class="flex flex-col gap-0.5"><span class="font-headline-sm text-label-lg text-primary font-bold">Gelombang Prioritas</span><span class="font-body-sm text-body-sm text-on-surface-variant">Program Early Bird dan kuota khusus alumni</span></div><span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded shrink-0">[VERIFY: Early Admission]</span></div><div class="py-3.5 flex items-start justify-between gap-3"><div class="flex flex-col gap-0.5"><span class="font-headline-sm text-label-lg text-primary font-bold">Periode Observasi Siswa</span><span class="font-body-sm text-body-sm text-on-surface-variant">Asesmen kesiapan belajar dan interaksi guru</span></div><span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded shrink-0">[VERIFY: Asesmen &amp; Observasi]</span></div><div class="py-3.5 flex items-start justify-between gap-3"><div class="flex flex-col gap-0.5"><span class="font-headline-sm text-label-lg text-primary font-bold">Pengumuman Hasil</span><span class="font-body-sm text-body-sm text-on-surface-variant">Konfirmasi penerimaan resmi dari panitia PSB</span></div><span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded shrink-0">[VERIFY: Konfirmasi Penerimaan]</span></div><div class="py-3.5 flex items-start justify-between gap-3"><div class="flex flex-col gap-0.5"><span class="font-headline-sm text-label-lg text-primary font-bold">Pendaftaran Ulang &amp; Berkas</span><span class="font-body-sm text-body-sm text-on-surface-variant">Pelengkapan data resmi siswa dan seragam</span></div><span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded shrink-0">[VERIFY: Final Enrollment]</span></div><div class="py-3.5 flex items-start justify-between gap-3"><div class="flex flex-col gap-0.5"><span class="font-headline-sm text-label-lg text-primary font-bold">Awal Tahun Ajaran Baru</span><span class="font-body-sm text-body-sm text-on-surface-variant">Orientasi siswa dan hari pertama masuk sekolah</span></div><span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded shrink-0">[VERIFY: Hari Pertama Sekolah]</span></div></div><div class="p-space-md rounded-xl bg-surface-container-lowest border border-[#0e2a47]/10 flex items-start gap-2.5"><span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">info</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Jadwal dapat berubah sesuai ketersediaan tempat dan kebijakan penerimaan SHS.</p></div></section>
+<!-- 14. FINAL CTA & FOOTER -->
+<footer class="mt-space-lg bg-primary text-on-primary px-gutter-mobile pt-space-xl pb-12 flex flex-col gap-space-lg">
+<div class="flex flex-col gap-2">
+<span class="font-label-sm text-label-sm text-secondary-container uppercase tracking-widest font-bold">Langkah Selanjutnya</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary">
+        Siap Mengenal SHS Lebih Dekat?
+      </h3>
+<p class="font-body-sm text-body-sm text-on-primary-container leading-relaxed">
+        Pintu kami selalu terbuka untuk mendiskusikan masa depan pendidikan buah hati Anda.
+      </p>
+</div>
+<!-- Campus Details -->
+<div class="p-space-md rounded-xl bg-primary-container flex flex-col gap-space-sm text-body-sm">
+<div class="flex items-center gap-2 text-on-primary font-headline-sm text-label-lg">
+<span class="material-symbols-outlined text-secondary-container text-[20px]">location_on</span>
+<span class="">Kampus Utama Suria Harapan School</span>
+</div>
+<p class="text-on-primary-container">
+        Jl. Boulevard Harapan Ceria Kav. 18-20, Kawasan Edukasi Terpadu, Indonesia.
+      </p>
+<div class="flex flex-col gap-1 pt-1 text-on-primary-container">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">call</span>
+<span class="">+62 (021) 8899-2345</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">mail</span>
+<span class="">admissions@suriaharapan.sch.id</span>
+</div>
+</div>
+</div>
+<!-- Motto Stamp & Legal -->
+<div class="flex flex-col items-center justify-center text-center gap-2 pt-space-sm">
+<span class="font-headline-sm text-label-lg tracking-widest text-secondary-container uppercase">
+        "Shine and Be a Blessing"
+      </span>
+<span class="font-body-sm text-body-sm text-on-primary-container/70">
+        © 2025 Suria Harapan School. Hak Cipta Dilindungi Undang-Undang.
+      </span>
+</div>
+</footer>
+</div>
+<script>
+  function toggleFaq(btn) {
+    const content = btn.nextElementSibling;
+    const icon = btn.querySelector('.material-symbols-outlined');
+    const isHidden = content.classList.contains('hidden');
+
+    if (isHidden) {
+      content.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    } else {
+      content.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    }
+  }
+
+  function setLang(lang) {
+    const btnId = document.getElementById('btn-lang-id');
+    const btnEn = document.getElementById('btn-lang-en');
+    if (lang === 'id') {
+      btnId.classList.add('bg-surface-container-lowest', 'text-primary', 'font-bold');
+      btnId.classList.remove('text-on-surface-variant');
+      btnEn.classList.remove('bg-surface-container-lowest', 'text-primary', 'font-bold');
+      btnEn.classList.add('text-on-surface-variant');
+    } else {
+      btnEn.classList.add('bg-surface-container-lowest', 'text-primary', 'font-bold');
+      btnEn.classList.remove('text-on-surface-variant');
+      btnId.classList.remove('bg-surface-container-lowest', 'text-primary', 'font-bold');
+      btnId.classList.add('text-on-surface-variant');
+    }
+  }
+
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const form = document.getElementById('admission-lead-form');
+    const alertBox = document.getElementById('form-success-alert');
+    form.classList.add('hidden');
+    alertBox.classList.remove('hidden');
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.06)]" data-active-classes="text-primary"><div class="h-20 px-gutter-mobile flex items-center gap-space-sm"><a class="flex-1 h-12 flex items-center justify-center gap-2 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg shadow-[0_1px_4px_rgba(0,0,0,0.05)] hover:bg-surface-container transition-all active:scale-[0.98]" data-path="whatsapp-consult" href="#"><span class="material-symbols-outlined text-[20px] text-[#25D366]">chat</span><span class="">WhatsApp</span></a><a class="flex-1 h-12 flex items-center justify-center gap-2 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-[0_4px_12px_-2px_rgba(14,42,71,0.07)] hover:bg-primary-container transition-all active:scale-[0.98]" data-path="registration-form" href="#"><span class="material-symbols-outlined text-[20px] text-secondary-container">edit_document</span><span class="">Daftar PSB</span></a></div></nav>
+</body></html>
