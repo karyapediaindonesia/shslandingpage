@@ -3,17 +3,25 @@ import { Locale, ContentDictionary, BannerSlide } from '../types';
 import { contentId as defaultContentId } from '../content/id';
 import { contentEn as defaultContentEn } from '../content/en';
 
-const STORAGE_KEY = 'shs_live_content_store_v6';
+const STORAGE_KEY = 'shs_live_content_store_v7';
 const MASTER_PIN = '202728';
 
-// Clear legacy stores
+// Clear all legacy stores so visitors with cached previous versions (e.g. v1-v6)
+// are immediately purged and receive the clean, official content defaults.
 if (typeof window !== 'undefined') {
   try {
-    ['shs_live_content_store_v1_id', 'shs_live_content_store_v1_en',
-     'shs_live_content_store_v2_id', 'shs_live_content_store_v2_en',
-     'shs_live_content_store_v3_id', 'shs_live_content_store_v3_en',
-     'shs_live_content_store_v4_id', 'shs_live_content_store_v4_en',
-     'shs_live_content_store_v5_id', 'shs_live_content_store_v5_en'].forEach(k => localStorage.removeItem(k));
+    const keysToRemove: string[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (
+        k &&
+        (k.startsWith('shs_live_content_store_') ||
+         k.startsWith('shs_live_image_positions_'))
+      ) {
+        keysToRemove.push(k);
+      }
+    }
+    keysToRemove.forEach((k) => localStorage.removeItem(k));
   } catch (_) {}
 }
 
@@ -59,8 +67,11 @@ export const LiveContentProvider: React.FC<{ children: ReactNode }> = ({ childre
   const [contentId, setContentId] = useState<ContentDictionary>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const saved = localStorage.getItem(STORAGE_KEY + '_id');
-        if (saved) return JSON.parse(saved);
+        const isEditorActive = sessionStorage.getItem('shs_editor_session_active') === 'true';
+        if (isEditorActive) {
+          const saved = localStorage.getItem(STORAGE_KEY + '_id');
+          if (saved) return JSON.parse(saved);
+        }
       } catch (e) {
         console.error('Failed to load saved ID content', e);
       }
@@ -71,8 +82,11 @@ export const LiveContentProvider: React.FC<{ children: ReactNode }> = ({ childre
   const [contentEn, setContentEn] = useState<ContentDictionary>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const saved = localStorage.getItem(STORAGE_KEY + '_en');
-        if (saved) return JSON.parse(saved);
+        const isEditorActive = sessionStorage.getItem('shs_editor_session_active') === 'true';
+        if (isEditorActive) {
+          const saved = localStorage.getItem(STORAGE_KEY + '_en');
+          if (saved) return JSON.parse(saved);
+        }
       } catch (e) {
         console.error('Failed to load saved EN content', e);
       }
@@ -91,22 +105,26 @@ export const LiveContentProvider: React.FC<{ children: ReactNode }> = ({ childre
 
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
-  // Save to localStorage when content changes
+  // Save to localStorage ONLY when live editor mode is active
   useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY + '_id', JSON.stringify(contentId));
-    } catch (e) {
-      console.error('Failed to save ID content', e);
+    if (isEditorMode) {
+      try {
+        localStorage.setItem(STORAGE_KEY + '_id', JSON.stringify(contentId));
+      } catch (e) {
+        console.error('Failed to save ID content', e);
+      }
     }
-  }, [contentId]);
+  }, [contentId, isEditorMode]);
 
   useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY + '_en', JSON.stringify(contentEn));
-    } catch (e) {
-      console.error('Failed to save EN content', e);
+    if (isEditorMode) {
+      try {
+        localStorage.setItem(STORAGE_KEY + '_en', JSON.stringify(contentEn));
+      } catch (e) {
+        console.error('Failed to save EN content', e);
+      }
     }
-  }, [contentEn]);
+  }, [contentEn, isEditorMode]);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -193,8 +211,11 @@ export const LiveContentProvider: React.FC<{ children: ReactNode }> = ({ childre
   const [imagePositions, setImagePositions] = useState<Record<string, string>>(() => {
     if (typeof window !== 'undefined') {
       try {
-        const saved = localStorage.getItem('shs_live_image_positions_v1');
-        if (saved) return JSON.parse(saved);
+        const isEditorActive = sessionStorage.getItem('shs_editor_session_active') === 'true';
+        if (isEditorActive) {
+          const saved = localStorage.getItem('shs_live_image_positions_v2');
+          if (saved) return JSON.parse(saved);
+        }
       } catch (e) {
         console.error('Failed to load saved image positions', e);
       }
@@ -202,14 +223,16 @@ export const LiveContentProvider: React.FC<{ children: ReactNode }> = ({ childre
     return {};
   });
 
-  // Save image positions
+  // Save image positions ONLY when live editor mode is active
   useEffect(() => {
-    try {
-      localStorage.setItem('shs_live_image_positions_v1', JSON.stringify(imagePositions));
-    } catch (e) {
-      console.error('Failed to save image positions', e);
+    if (isEditorMode) {
+      try {
+        localStorage.setItem('shs_live_image_positions_v2', JSON.stringify(imagePositions));
+      } catch (e) {
+        console.error('Failed to save image positions', e);
+      }
     }
-  }, [imagePositions]);
+  }, [imagePositions, isEditorMode]);
 
   const updateImagePosition = (
     targetLocale: Locale,
@@ -254,7 +277,7 @@ export const LiveContentProvider: React.FC<{ children: ReactNode }> = ({ childre
       setImagePositions({});
       localStorage.removeItem(STORAGE_KEY + '_id');
       localStorage.removeItem(STORAGE_KEY + '_en');
-      localStorage.removeItem('shs_live_image_positions_v1');
+      localStorage.removeItem('shs_live_image_positions_v2');
     }
   };
 

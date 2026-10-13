@@ -22,7 +22,6 @@ export const SchoolVisitSection: React.FC<SchoolVisitSectionProps> = ({
 
   return (
     <section className="w-full bg-surface-container-low py-10 sm:py-14 lg:py-16 border-b border-shs-border" id="kunjungan-sekolah">
-      <div id="kunjungan-kampus" className="sr-only" aria-hidden="true" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           {/* Photo side */}

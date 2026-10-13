@@ -73,8 +73,8 @@ export const BannerManagerModal: React.FC<BannerManagerModalProps> = ({
       primaryCtaText: locale === 'en' ? 'Register Now' : 'Daftar Sekarang',
       primaryCtaLink: '#daftar',
       secondaryCtaText: locale === 'en' ? 'School Tour' : 'Jadwalkan Kunjungan',
-      secondaryCtaLink: '#kunjungan',
-      image: '/photos/campus-hero-1.jpg',
+      secondaryCtaLink: '#kunjungan-sekolah',
+      image: '/images/photo-8.jpg',
       imagePosition: '50% 15%',
       alt: 'Suria Harapan School Banner'
     };
