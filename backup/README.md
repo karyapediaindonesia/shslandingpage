@@ -3,12 +3,17 @@
 Backup resmi dari website live: `https://shslandingpage.karyapedia.my.id/`  
 Tanggal Backup: 13 Oktober 2026
 
-## 1. File Backup
-Karena GitHub memiliki batas maksimal ukuran file sebesar 100 MB per file, arsip zip (total ~127.2 MB) dibagi menjadi 2 bagian yang dapat digabungkan kembali secara identik (MD5 verified: `24947c74b152dfbe04890da90973062d`):
+## 1. Unduh Langsung (1-Click Download)
+File zip utuh (127.20 MB) dapat langsung diunduh dari GitHub Releases tanpa perlu menggabungkan manual:
+- 📥 **[Download shslandingpage_website_backup.zip](https://github.com/karyapediaindonesia/shslandingpage/releases/download/v1.0.0-backup/shslandingpage_website_backup.zip)**
+- 🏷️ **[Halaman Rilis v1.0.0-backup](https://github.com/karyapediaindonesia/shslandingpage/releases/tag/v1.0.0-backup)**
+
+## 2. File Backup di Repositori (Split Archive)
+Bagi pengguna yang melakukan clone git, arsip zip juga tersedia langsung dalam repositori yang dipecah menjadi 2 bagian (< 100 MB per file):
 - `shslandingpage_website_backup.zip.001` (70.0 MB)
 - `shslandingpage_website_backup.zip.002` (57.2 MB)
 
-## 2. Cara Menggabungkan File Backup
+## 3. Cara Menggabungkan File Backup Repositori
 
 ### Windows (PowerShell):
 ```powershell

@@ -45,9 +45,12 @@ Website resmi pendaftaran dan informasi Suria Harapan School (SHS) Jambi.
 
 ## 📦 Backup Website Live
 
-Arsip lengkap backup aset produksi yang berjalan di web server `https://shslandingpage.karyapedia.my.id/` disimpan di direktori `backup/`:
-- `backup/shslandingpage_website_backup.zip.001`
-- `backup/shslandingpage_website_backup.zip.002`
+Arsip lengkap backup aset produksi yang berjalan di web server `https://shslandingpage.karyapedia.my.id/`:
+- 📥 **Unduh Langsung (1-Click ZIP)**: [shslandingpage_website_backup.zip (127.20 MB)](https://github.com/karyapediaindonesia/shslandingpage/releases/download/v1.0.0-backup/shslandingpage_website_backup.zip)
+- 🏷️ **GitHub Release**: [v1.0.0-backup](https://github.com/karyapediaindonesia/shslandingpage/releases/tag/v1.0.0-backup)
+- 📁 **File Backup di Repositori (Split Archive)**:
+  - `backup/shslandingpage_website_backup.zip.001` (70.0 MB)
+  - `backup/shslandingpage_website_backup.zip.002` (57.2 MB)
 
 Lihat panduan penggabungan dan ekstraksi di [backup/README.md](backup/README.md).
 
